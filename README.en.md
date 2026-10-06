@@ -2,6 +2,8 @@
 
 # Supermarket prices on iFood, in Brazil's state capitals
 
+Live site: [quanto-custa-o-mercado.vercel.app](https://quanto-custa-o-mercado.vercel.app)
+
 A personal data science project by [Theylor Machado](https://theylor.vercel.app). It compares supermarket prices published on the iFood website in the 27 Brazilian state capitals. The latest collection, on October 6, 2026, has 161,220 prices from 1,179 stores, in 20 aisles. This repository has only the static site, which reads the exported JSON files in `data/`.
 
 ![Home page](docs/screenshots/home-dark-1366.png)

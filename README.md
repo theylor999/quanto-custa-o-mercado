@@ -2,6 +2,8 @@
 
 # Preços de supermercado no iFood, nas capitais do Brasil
 
+Site: [quanto-custa-o-mercado.vercel.app](https://quanto-custa-o-mercado.vercel.app)
+
 Projeto pessoal de ciência de dados de [Theylor Machado](https://theylor.vercel.app). Ele compara preços de supermercados publicados no site do iFood nas 27 capitais brasileiras. A coleta mais recente, de 6 de outubro de 2026, tem 161.220 preços de 1.179 lojas, em 20 corredores. Este repositório tem só o site, estático, que lê os JSON exportados em `data/`.
 
 ![Página inicial](docs/screenshots/home-dark-1366.png)
