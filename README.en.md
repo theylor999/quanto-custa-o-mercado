@@ -6,7 +6,7 @@ Live site: [quanto-custa-o-mercado.vercel.app](https://quanto-custa-o-mercado.ve
 
 A personal data science project by [Theylor Machado](https://theylor.vercel.app). It compares supermarket prices published on the iFood website in the 27 Brazilian state capitals. The latest collection, on October 6, 2026, has 161,220 prices from 1,179 stores, in 20 aisles. This repository has only the static site, which reads the exported JSON files in `data/`.
 
-![Home page](docs/screenshots/home-dark-1366.png)
+![Home page](docs/screenshots/en/home-dark-1366.png)
 
 ## Pages
 
@@ -21,7 +21,7 @@ A personal data science project by [Theylor Machado](https://theylor.vercel.app)
 | `graficos.html` | Gallery of the charts from the analysis notebook |
 | `sobre.html` | Methodology, caveats, sources and author |
 
-More screenshots: [states](docs/screenshots/estados-dark.png), [tables](docs/screenshots/tabelas-dark.png), [light theme](docs/screenshots/home-light.png) and [mobile](docs/screenshots/home-mobile-375.png).
+More screenshots: [states](docs/screenshots/en/estados-dark.png), [tables](docs/screenshots/en/tabelas-dark.png), [light theme](docs/screenshots/en/home-light.png) and [mobile](docs/screenshots/en/home-mobile-375.png).
 
 ## Highlights
 
