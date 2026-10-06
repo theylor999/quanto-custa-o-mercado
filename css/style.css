@@ -140,6 +140,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
+html.i18n-pending body { visibility: hidden; }
 ::selection { background: var(--selection); color: var(--ink); }
 img, svg, canvas { max-width: 100%; }
 a { color: var(--accent); text-underline-offset: .2em; text-decoration-thickness: 1px; }

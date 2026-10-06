@@ -16,6 +16,17 @@
       var r = document.documentElement;
       r.setAttribute('data-theme', t);
       r.classList.add('js');
+      var l = null, u = null;
+      try { u = new URLSearchParams(location.search).get('lang'); } catch (e) {}
+      u = u && u.toLowerCase().slice(0, 2);
+      if (u === 'pt' || u === 'en') l = u;
+      if (!l) { try { l = localStorage.getItem('ifood-precos:lang'); } catch (e) {} }
+      if (l !== 'pt' && l !== 'en') l = /^pt/i.test((navigator.languages && navigator.languages[0]) || navigator.language || '') ? 'pt' : 'en';
+      r.setAttribute('lang', l === 'pt' ? 'pt-BR' : 'en');
+      if (l !== 'pt') {
+        r.classList.add('i18n-pending');
+        setTimeout(function () { r.classList.remove('i18n-pending'); }, 1500);
+      }
     })();
   </script>
   <script src="js/i18n.js"></script>
