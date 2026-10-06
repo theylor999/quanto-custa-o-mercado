@@ -1,6 +1,8 @@
 /* Idiomas (pt-BR e inglês): dicionário, IP.t(), idioma da página e botão PT · EN do cabeçalho.
    Carregado primeiro em todas as páginas (no <head>), antes de util.js. Script clássico, sem módulos.
    Idioma: ?lang=pt|en > localStorage "ifood-precos:lang" > navigator.language (começa com "pt" → pt, senão en).
+   O <script> inline do <head> de cada página repete essa regra antes da primeira pintura (define <html lang> e esconde o corpo
+   com .i18n-pending enquanto o inglês não é aplicado); mantenha os dois iguais.
    Trocar o idioma grava a escolha e recarrega a página; o texto estático (data-i18n*) e todo o texto montado
    em js/*.js nascem já no idioma certo, inclusive os gráficos. Como adicionar texto: ver "Idiomas / Languages" no README. */
 (function () {
@@ -1354,15 +1356,25 @@
     if (sessionStorage.getItem(SCROLL_KEY) != null && 'scrollRestoration' in history) history.scrollRestoration = 'manual';
   } catch (e) { /* modo privado */ }
 
+  let started = false;
   function init() {
+    if (started) return;
+    started = true;
     IP.applyStatic(document);
+    root.classList.remove('i18n-pending');
     const btn = document.getElementById('lang-toggle');
     if (btn) {
       btn.setAttribute('aria-pressed', String(IP.lang === 'en'));
       btn.addEventListener('click', () => IP.setLang(IP.lang === 'en' ? 'pt' : 'en'));
     }
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
-  else init();
+  if (document.readyState === 'loading') {
+    /* Quando o parser chega ao primeiro <script> do fim do body, o HTML já está inteiro: traduz sem esperar o download dos scripts. */
+    new MutationObserver((records, obs) => {
+      const reached = records.some((r) => r.target === document.body && Array.from(r.addedNodes).some((n) => n.nodeName === 'SCRIPT'));
+      if (reached) { obs.disconnect(); init(); }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+    document.addEventListener('DOMContentLoaded', init);
+  } else init();
 
 })();
