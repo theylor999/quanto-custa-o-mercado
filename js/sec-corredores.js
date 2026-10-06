@@ -4,15 +4,15 @@
   const IP = window.IP;
 
   const METRICS = {
-    produtos: { label: 'produtos', fmt: IP.fmt.int },
-    preco_medio: { label: 'preço médio', fmt: IP.fmt.money },
+    produtos: { label: IP.t('cor.metric.produtos'), fmt: IP.fmt.int },
+    preco_medio: { label: IP.t('cor.metric.precoMedio'), fmt: IP.fmt.money },
   };
 
   IP.sections.corredores = function (d) {
     const list = document.getElementById('cor-bars');
     if (!d.corredores) { IP.emptyFile(list, 'corredores.json'); return; }
     const data = d.corredores;
-    if (!data.length) { IP.showEmpty(list, 'Sem corredores neste export.'); return; }
+    if (!data.length) { IP.showEmpty(list, IP.t('cor.empty')); return; }
 
     let metric = 'produtos';
     const items = new Map();
@@ -20,10 +20,10 @@
     function details(r) {
       const cv = r.desvio_padrao != null && r.preco_medio ? r.desvio_padrao / r.preco_medio : null;
       return [
-        ['Produtos', IP.fmt.int(r.produtos)],
-        ['Preço médio', IP.fmt.money(r.preco_medio)],
-        ['Desvio padrão', r.desvio_padrao == null ? 'n/d (1 produto)' : IP.fmt.money(r.desvio_padrao)],
-        ['Desvio ÷ média', cv == null ? 'n/d' : IP.fmt.pct(cv)],
+        [IP.t('cor.detail.produtos'), IP.fmt.int(r.produtos)],
+        [IP.t('cor.detail.precoMedio'), IP.fmt.money(r.preco_medio)],
+        [IP.t('cor.detail.desvio'), r.desvio_padrao == null ? IP.t('cor.detail.naOne') : IP.fmt.money(r.desvio_padrao)],
+        [IP.t('cor.detail.cv'), cv == null ? IP.t('common.na') : IP.fmt.pct(cv)],
       ];
     }
 
@@ -64,7 +64,7 @@
         const it = items.get(r.corredor);
         it.fill.style.setProperty('--w', it.fill.dataset.w);
       });
-      list.setAttribute('aria-label', 'Corredores ordenados por ' + m.label);
+      list.setAttribute('aria-label', IP.t('cor.sortedBy', { metric: m.label }));
     }
 
     document.querySelectorAll('input[name="cor-metric"]').forEach((inp) =>

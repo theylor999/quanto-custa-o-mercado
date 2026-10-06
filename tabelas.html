@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tabelas · preços no iFood</title>
-  <meta name="description" content="Todas as tabelas do projeto: UFs, capitais, produtos, itens do dia a dia, corredores, redes e cesta por UF.">
+  <title data-i18n="tabelas.title">Tabelas · preços no iFood</title>
+  <meta name="description" content="Todas as tabelas do projeto: UFs, capitais, produtos, itens do dia a dia, corredores, redes e cesta por UF." data-i18n-attr="content:tabelas.meta">
   <meta name="color-scheme" content="dark light">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafafa'/%3E%3Cpath d='M8 21l5-6 4 3 7-9' fill='none' stroke='%230a0a0c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <script>
@@ -18,12 +18,13 @@
       r.classList.add('js');
     })();
   </script>
+  <script src="js/i18n.js"></script>
   <link rel="preload" href="fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-page="tabelas">
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="skip" href="#conteudo" data-i18n="ui.skip">Ir para o conteúdo</a>
 
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
     <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
@@ -35,35 +36,38 @@
 
   <header class="topbar" id="topo">
     <div class="topbar-row container">
-      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial">
+      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial" data-i18n-attr="aria-label:ui.brand.aria">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 21l5-6 4 3 7-9" fill="none" stroke="hsl(var(--background))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span>
-        <span class="brand-text" aria-hidden="true">preços<span class="brand-dot">/</span>ifood</span>
+        <span class="brand-text" aria-hidden="true" data-i18n-html="ui.brand.text">preços<span class="brand-dot">/</span>ifood</span>
       </a>
-      <nav class="nav" id="nav" aria-label="Páginas do site">
+      <nav class="nav" id="nav" aria-label="Páginas do site" data-i18n-attr="aria-label:ui.nav.aria">
         <ul>
-          <li><a class="nav-link" href="index.html">Início</a></li>
-          <li><a class="nav-link" href="estados.html">Estados</a></li>
-          <li><a class="nav-link" href="capitais.html">Capitais</a></li>
-          <li><a class="nav-link" href="produtos.html">Produtos</a></li>
-          <li><a class="nav-link" href="tabelas.html" aria-current="page">Tabelas</a></li>
-          <li><a class="nav-link" href="series.html">Séries</a></li>
-          <li><a class="nav-link" href="graficos.html">Gráficos</a></li>
-          <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li><a class="nav-link" href="index.html" data-i18n="nav.home">Início</a></li>
+          <li><a class="nav-link" href="estados.html" data-i18n="nav.states">Estados</a></li>
+          <li><a class="nav-link" href="capitais.html" data-i18n="nav.capitals">Capitais</a></li>
+          <li><a class="nav-link" href="produtos.html" data-i18n="nav.products">Produtos</a></li>
+          <li><a class="nav-link" href="tabelas.html" aria-current="page" data-i18n="nav.tables">Tabelas</a></li>
+          <li><a class="nav-link" href="series.html" data-i18n="nav.series">Séries</a></li>
+          <li><a class="nav-link" href="graficos.html" data-i18n="nav.charts">Gráficos</a></li>
+          <li><a class="nav-link" href="sobre.html" data-i18n="nav.about">Sobre</a></li>
         </ul>
       </nav>
       <div class="bar-actions">
-        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema">
+                <button class="lang-btn" id="lang-toggle" type="button" aria-pressed="false" aria-label="PT · EN, versão em inglês" title="PT · EN, versão em inglês" data-i18n-attr="aria-label:lang.aria,title:lang.aria">
+          <span class="lang-opt" data-lang="pt">PT</span><span class="lang-sep" aria-hidden="true">·</span><span class="lang-opt" data-lang="en">EN</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema" data-i18n-attr="aria-label:ui.theme.aria,title:ui.theme.title">
           <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
         </button>
         <div class="menu-root" id="menu-root">
-          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" aria-controls="menu-panel">
+          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" data-i18n-attr="aria-label:ui.menu.open" aria-controls="menu-panel">
             <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
             <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
-          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" hidden></nav>
+          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" data-i18n-attr="aria-label:ui.menu.aria" hidden></nav>
         </div>
       </div>
     </div>
@@ -73,37 +77,37 @@
   <main id="conteudo">
     <section class="page-head">
       <div class="container">
-        <p class="eyebrow">Tabelas</p>
-        <h1>Todas as tabelas</h1>
-        <p class="lede">Os números completos, num lugar só. Clique no título de uma coluna para ordenar e use a busca para achar uma linha.</p>
+        <p class="eyebrow" data-i18n="tabelas.head.eyebrow">Tabelas</p>
+        <h1 data-i18n="tabelas.head.title">Todas as tabelas</h1>
+        <p class="lede" data-i18n="tabelas.head.lede">Os números completos, num lugar só. Clique no título de uma coluna para ordenar e use a busca para achar uma linha.</p>
       </div>
     </section>
-    <nav class="toc" aria-label="Tabelas desta página">
+    <nav class="toc" aria-label="Tabelas desta página" data-i18n-attr="aria-label:tabelas.toc.aria">
       <div class="container"><ul>
-        <li><a href="#t-uf">UFs</a></li>
-        <li><a href="#t-capitais">Capitais</a></li>
-        <li><a href="#t-produtos">Produtos</a></li>
-        <li><a href="#t-cotidiano">Dia a dia</a></li>
-        <li><a href="#t-corredores">Corredores</a></li>
-        <li><a href="#t-redes">Redes</a></li>
-        <li><a href="#t-cesta">Cesta por UF</a></li>
+        <li><a href="#t-uf" data-i18n="tabelas.toc.uf">UFs</a></li>
+        <li><a href="#t-capitais" data-i18n="tabelas.toc.capitais">Capitais</a></li>
+        <li><a href="#t-produtos" data-i18n="tabelas.toc.produtos">Produtos</a></li>
+        <li><a href="#t-cotidiano" data-i18n="tabelas.toc.cotidiano">Dia a dia</a></li>
+        <li><a href="#t-corredores" data-i18n="tabelas.toc.corredores">Corredores</a></li>
+        <li><a href="#t-redes" data-i18n="tabelas.toc.redes">Redes</a></li>
+        <li><a href="#t-cesta" data-i18n="tabelas.toc.cesta">Cesta por UF</a></li>
       </ul></div>
     </nav>
     <section class="tbl-sec" id="t-uf" aria-labelledby="t-uf-titulo">
       <div class="container">
-        <h2 id="t-uf-titulo">Preços por UF</h2>
-        <p class="lede">Lojas, preços coletados, o preço dos mesmos itens contra a mediana do país e a média bruta (que depende do que cada UF vende).</p>
-      <div class="controls" role="search" aria-label="Filtrar UFs">
+        <h2 id="t-uf-titulo" data-i18n="tabelas.uf.heading">Preços por UF</h2>
+        <p class="lede" data-i18n="tabelas.uf.lede">Lojas, preços coletados, o preço dos mesmos itens contra a mediana do país e a média bruta (que depende do que cada UF vende).</p>
+      <div class="controls" role="search" aria-label="Filtrar UFs" data-i18n-attr="aria-label:tabelas.uf.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: SP, bahia…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: SP, bahia…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.uf.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: UFs. Role para ver mais linhas e colunas.">
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: UFs. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.uf.region">
             <table class="data sticky">
-              <caption class="sr-only">Preços por UF. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.uf.caption">Preços por UF. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -113,19 +117,19 @@
     </section>
     <section class="tbl-sec" id="t-capitais" aria-labelledby="t-capitais-titulo">
       <div class="container">
-        <h2 id="t-capitais-titulo">Capitais</h2>
-        <p class="lede">População, PIB per capita, lojas, preço médio bruto, as duas cestas e o preço de arroz, leite e café em cada capital.</p>
-      <div class="controls" role="search" aria-label="Filtrar capitais">
+        <h2 id="t-capitais-titulo" data-i18n="tabelas.capitais.heading">Capitais</h2>
+        <p class="lede" data-i18n="tabelas.capitais.lede">População, PIB per capita, lojas, preço médio bruto, as duas cestas e o preço de arroz, leite e café em cada capital.</p>
+      <div class="controls" role="search" aria-label="Filtrar capitais" data-i18n-attr="aria-label:tabelas.capitais.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: recife, SP…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: recife, SP…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.capitais.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: capitais. Role para ver mais linhas e colunas.">
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: capitais. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.capitais.region">
             <table class="data sticky">
-              <caption class="sr-only">Capitais. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.capitais.caption">Capitais. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -135,19 +139,19 @@
     </section>
     <section class="tbl-sec" id="t-produtos" aria-labelledby="t-produtos-titulo">
       <div class="container">
-        <h2 id="t-produtos-titulo">Produtos mais comuns</h2>
-        <p class="lede">Os produtos que aparecem em mais lojas, com preço médio, mínimo e máximo.</p>
-      <div class="controls" role="search" aria-label="Filtrar produtos mais comuns">
+        <h2 id="t-produtos-titulo" data-i18n="tabelas.produtos.heading">Produtos mais comuns</h2>
+        <p class="lede" data-i18n="tabelas.produtos.lede">Os produtos que aparecem em mais lojas, com preço médio, mínimo e máximo.</p>
+      <div class="controls" role="search" aria-label="Filtrar produtos mais comuns" data-i18n-attr="aria-label:tabelas.produtos.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: leite, café…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: leite, café…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.produtos.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll tall" tabindex="0" role="region" aria-label="Tabela: produtos mais comuns. Role para ver mais linhas e colunas.">
+          <div class="table-scroll tall" tabindex="0" role="region" aria-label="Tabela: produtos mais comuns. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.produtos.region">
             <table class="data">
-              <caption class="sr-only">Produtos mais comuns. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.produtos.caption">Produtos mais comuns. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -157,19 +161,19 @@
     </section>
     <section class="tbl-sec" id="t-cotidiano" aria-labelledby="t-cotidiano-titulo">
       <div class="container">
-        <h2 id="t-cotidiano-titulo">Itens do dia a dia</h2>
-        <p class="lede">Produtos de marca conhecida. Piso e teto típicos deixam de fora os 10% mais baratos e os 10% mais caros.</p>
-      <div class="controls" role="search" aria-label="Filtrar itens do dia a dia">
+        <h2 id="t-cotidiano-titulo" data-i18n="tabelas.cotidiano.heading">Itens do dia a dia</h2>
+        <p class="lede" data-i18n="tabelas.cotidiano.lede">Produtos de marca conhecida. Piso e teto típicos deixam de fora os 10% mais baratos e os 10% mais caros.</p>
+      <div class="controls" role="search" aria-label="Filtrar itens do dia a dia" data-i18n-attr="aria-label:tabelas.cotidiano.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: arroz, leite…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: arroz, leite…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.cotidiano.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: itens do dia a dia. Role para ver mais linhas e colunas.">
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: itens do dia a dia. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.cotidiano.region">
             <table class="data">
-              <caption class="sr-only">Itens do dia a dia. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.cotidiano.caption">Itens do dia a dia. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -179,13 +183,13 @@
     </section>
     <section class="tbl-sec" id="t-corredores" aria-labelledby="t-corredores-titulo">
       <div class="container">
-        <h2 id="t-corredores-titulo">Corredores</h2>
-        <p class="lede">Número de produtos e preço médio bruto de cada corredor. O desvio ÷ média mostra quão espalhados são os preços.</p>
+        <h2 id="t-corredores-titulo" data-i18n="tabelas.corredores.heading">Corredores</h2>
+        <p class="lede" data-i18n="tabelas.corredores.lede">Número de produtos e preço médio bruto de cada corredor. O desvio ÷ média mostra quão espalhados são os preços.</p>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: corredores. Role para ver mais linhas e colunas.">
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: corredores. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.corredores.region">
             <table class="data sticky">
-              <caption class="sr-only">Corredores. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.corredores.caption">Corredores. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -195,19 +199,19 @@
     </section>
     <section class="tbl-sec" id="t-redes" aria-labelledby="t-redes-titulo">
       <div class="container">
-        <h2 id="t-redes-titulo">Redes de supermercado</h2>
-        <p class="lede">Preço de cada rede contra a mediana das lojas da mesma UF, nos mesmos itens. Valor negativo = mais barata. Números esmaecidos vêm de poucas lojas.</p>
-      <div class="controls" role="search" aria-label="Filtrar redes">
+        <h2 id="t-redes-titulo" data-i18n="tabelas.redes.heading">Redes de supermercado</h2>
+        <p class="lede" data-i18n="tabelas.redes.lede">Preço de cada rede contra a mediana das lojas da mesma UF, nos mesmos itens. Valor negativo = mais barata. Números esmaecidos vêm de poucas lojas.</p>
+      <div class="controls" role="search" aria-label="Filtrar redes" data-i18n-attr="aria-label:tabelas.redes.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: assaí, extra…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: assaí, extra…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.redes.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: redes. Role para ver mais linhas e colunas.">
+          <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: redes. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.redes.region">
             <table class="data sticky">
-              <caption class="sr-only">Redes de supermercado. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.redes.caption">Redes de supermercado. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -217,19 +221,19 @@
     </section>
     <section class="tbl-sec" id="t-cesta" aria-labelledby="t-cesta-titulo">
       <div class="container">
-        <h2 id="t-cesta-titulo">Cesta por UF, item a item</h2>
-        <p class="lede">Preço por quilo ou litro de cada item da cesta: DIEESE contra o produto mais barato do iFood. Só estados com itens suficientes casados.</p>
-      <div class="controls" role="search" aria-label="Filtrar itens da cesta por UF">
+        <h2 id="t-cesta-titulo" data-i18n="tabelas.cesta.heading">Cesta por UF, item a item</h2>
+        <p class="lede" data-i18n="tabelas.cesta.lede">Preço por quilo ou litro de cada item da cesta: DIEESE contra o produto mais barato do iFood. Só estados com itens suficientes casados.</p>
+      <div class="controls" role="search" aria-label="Filtrar itens da cesta por UF" data-i18n-attr="aria-label:tabelas.cesta.filter">
         <label class="field grow">
-          <span>Buscar</span>
-          <input type="search" placeholder="ex.: MA, leite, arroz…" autocomplete="off" spellcheck="false">
+          <span data-i18n="tabelas.search.label">Buscar</span>
+          <input type="search" placeholder="ex.: MA, leite, arroz…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:tabelas.cesta.placeholder">
         </label>
       </div>
         <p class="count" aria-live="polite"></p>
         <div class="table-card spotlight">
-          <div class="table-scroll tall" tabindex="0" role="region" aria-label="Tabela: itens da cesta por UF. Role para ver mais linhas e colunas.">
+          <div class="table-scroll tall" tabindex="0" role="region" aria-label="Tabela: itens da cesta por UF. Role para ver mais linhas e colunas." data-i18n-attr="aria-label:tabelas.cesta.region">
             <table class="data sticky">
-              <caption class="sr-only">Cesta por UF, item a item. Clique no cabeçalho de uma coluna para ordenar.</caption>
+              <caption class="sr-only" data-i18n="tabelas.cesta.caption">Cesta por UF, item a item. Clique no cabeçalho de uma coluna para ordenar.</caption>
               <thead></thead>
               <tbody></tbody>
             </table>
@@ -241,12 +245,12 @@
 
   <footer class="footer">
     <div class="container footer-row">
-      <p id="foot-meta" class="muted">Carregando metadados…</p>
-      <p class="muted">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
+      <p id="foot-meta" class="muted" data-i18n="ui.footer.loading">Carregando metadados…</p>
+      <p class="muted" data-i18n-html="ui.footer.note">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
     </div>
   </footer>
 
-  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo">
+  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo" data-i18n-attr="aria-label:ui.totop">
     <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
 

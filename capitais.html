@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Capitais · preços no iFood</title>
-  <meta name="description" content="Detalhe de cada capital: população, PIB per capita, lojas, preços de arroz, leite e café e a cesta do iFood contra o DIEESE.">
+  <title data-i18n="capitais.title">Capitais · preços no iFood</title>
+  <meta name="description" content="Detalhe de cada capital: população, PIB per capita, lojas, preços de arroz, leite e café e a cesta do iFood contra o DIEESE." data-i18n-attr="content:capitais.meta">
   <meta name="color-scheme" content="dark light">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafafa'/%3E%3Cpath d='M8 21l5-6 4 3 7-9' fill='none' stroke='%230a0a0c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <script>
@@ -18,12 +18,13 @@
       r.classList.add('js');
     })();
   </script>
+  <script src="js/i18n.js"></script>
   <link rel="preload" href="fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-page="capitais">
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="skip" href="#conteudo" data-i18n="ui.skip">Ir para o conteúdo</a>
 
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
     <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
@@ -35,35 +36,38 @@
 
   <header class="topbar" id="topo">
     <div class="topbar-row container">
-      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial">
+      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial" data-i18n-attr="aria-label:ui.brand.aria">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 21l5-6 4 3 7-9" fill="none" stroke="hsl(var(--background))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span>
-        <span class="brand-text" aria-hidden="true">preços<span class="brand-dot">/</span>ifood</span>
+        <span class="brand-text" aria-hidden="true" data-i18n-html="ui.brand.text">preços<span class="brand-dot">/</span>ifood</span>
       </a>
-      <nav class="nav" id="nav" aria-label="Páginas do site">
+      <nav class="nav" id="nav" aria-label="Páginas do site" data-i18n-attr="aria-label:ui.nav.aria">
         <ul>
-          <li><a class="nav-link" href="index.html">Início</a></li>
-          <li><a class="nav-link" href="estados.html">Estados</a></li>
-          <li><a class="nav-link" href="capitais.html" aria-current="page">Capitais</a></li>
-          <li><a class="nav-link" href="produtos.html">Produtos</a></li>
-          <li><a class="nav-link" href="tabelas.html">Tabelas</a></li>
-          <li><a class="nav-link" href="series.html">Séries</a></li>
-          <li><a class="nav-link" href="graficos.html">Gráficos</a></li>
-          <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li><a class="nav-link" href="index.html" data-i18n="nav.home">Início</a></li>
+          <li><a class="nav-link" href="estados.html" data-i18n="nav.states">Estados</a></li>
+          <li><a class="nav-link" href="capitais.html" aria-current="page" data-i18n="nav.capitals">Capitais</a></li>
+          <li><a class="nav-link" href="produtos.html" data-i18n="nav.products">Produtos</a></li>
+          <li><a class="nav-link" href="tabelas.html" data-i18n="nav.tables">Tabelas</a></li>
+          <li><a class="nav-link" href="series.html" data-i18n="nav.series">Séries</a></li>
+          <li><a class="nav-link" href="graficos.html" data-i18n="nav.charts">Gráficos</a></li>
+          <li><a class="nav-link" href="sobre.html" data-i18n="nav.about">Sobre</a></li>
         </ul>
       </nav>
       <div class="bar-actions">
-        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema">
+                <button class="lang-btn" id="lang-toggle" type="button" aria-pressed="false" aria-label="PT · EN, versão em inglês" title="PT · EN, versão em inglês" data-i18n-attr="aria-label:lang.aria,title:lang.aria">
+          <span class="lang-opt" data-lang="pt">PT</span><span class="lang-sep" aria-hidden="true">·</span><span class="lang-opt" data-lang="en">EN</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema" data-i18n-attr="aria-label:ui.theme.aria,title:ui.theme.title">
           <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
         </button>
         <div class="menu-root" id="menu-root">
-          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" aria-controls="menu-panel">
+          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" data-i18n-attr="aria-label:ui.menu.open" aria-controls="menu-panel">
             <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
             <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
-          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" hidden></nav>
+          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" data-i18n-attr="aria-label:ui.menu.aria" hidden></nav>
         </div>
       </div>
     </div>
@@ -73,20 +77,20 @@
   <main id="conteudo">
     <section class="page-head">
       <div class="container">
-        <p class="eyebrow">Capitais</p>
-        <h1>Cada capital em números</h1>
-        <p class="lede">Escolha uma capital: população, PIB per capita (riqueza média por habitante), lojas e preço de arroz, leite e café.</p>
+        <p class="eyebrow" data-i18n="capitais.head.eyebrow">Capitais</p>
+        <h1 data-i18n="capitais.head.title">Cada capital em números</h1>
+        <p class="lede" data-i18n="capitais.head.lede">Escolha uma capital: população, PIB per capita (riqueza média por habitante), lojas e preço de arroz, leite e café.</p>
       </div>
     </section>
-    <section class="section" id="capitais" aria-label="Capitais">
+    <section class="section" id="capitais" aria-label="Capitais" data-i18n-attr="aria-label:capitais.section.label">
       <div class="container">
-        <div class="controls reveal" role="search" aria-label="Filtrar capitais">
+        <div class="controls reveal" role="search" aria-label="Filtrar capitais" data-i18n-attr="aria-label:capitais.filters.label">
           <label class="field grow">
-            <span>Buscar capital ou UF</span>
-            <input type="search" id="cap-q" placeholder="ex.: recife, SP…" autocomplete="off" spellcheck="false">
+            <span data-i18n="capitais.filters.searchLabel">Buscar capital ou UF</span>
+            <input type="search" id="cap-q" placeholder="ex.: recife, SP…" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:capitais.filters.searchPlaceholder">
           </label>
           <label class="field">
-            <span>Ordenar por</span>
+            <span data-i18n="capitais.filters.sortLabel">Ordenar por</span>
             <select id="cap-sort"></select>
           </label>
         </div>
@@ -94,9 +98,9 @@
 
         <div class="cap-grid">
           <div class="rank-card cap-picker spotlight reveal">
-            <ol class="rank-list" id="cap-list" aria-label="Capitais"></ol>
+            <ol class="rank-list" id="cap-list" aria-label="Capitais" data-i18n-attr="aria-label:capitais.list.label"></ol>
           </div>
-          <aside class="cap-detail glass spotlight reveal" id="cap-detail" style="--reveal-delay:90ms" aria-live="polite" aria-label="Detalhe da capital selecionada"></aside>
+          <aside class="cap-detail glass spotlight reveal" id="cap-detail" style="--reveal-delay:90ms" aria-live="polite" aria-label="Detalhe da capital selecionada" data-i18n-attr="aria-label:capitais.detail.label"></aside>
         </div>
       </div>
     </section>
@@ -104,12 +108,12 @@
 
   <footer class="footer">
     <div class="container footer-row">
-      <p id="foot-meta" class="muted">Carregando metadados…</p>
-      <p class="muted">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
+      <p id="foot-meta" class="muted" data-i18n="ui.footer.loading">Carregando metadados…</p>
+      <p class="muted" data-i18n-html="ui.footer.note">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
     </div>
   </footer>
 
-  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo">
+  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo" data-i18n-attr="aria-label:ui.totop">
     <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
 

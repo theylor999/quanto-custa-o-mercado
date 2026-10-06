@@ -11,7 +11,7 @@
     const box = document.getElementById('cot-cards');
     if (!box) return;
     if (!Array.isArray(d.cotidiano)) { box.style.display = 'block'; IP.emptyFile(box, 'cotidiano.json'); return; }
-    if (!d.cotidiano.length) { box.style.display = 'block'; IP.showEmpty(box, 'Sem itens do dia a dia neste export.'); return; }
+    if (!d.cotidiano.length) { box.style.display = 'block'; IP.showEmpty(box, IP.t('prod.emptyDaily')); return; }
     const rows = d.cotidiano.slice().sort((a, b) => b.lojas - a.lojas);
     IP.clear(box);
     rows.forEach((p) => {
@@ -25,18 +25,18 @@
       box.append(el('li', { class: 'card spotlight reveal' },
         el('div', { class: 'card-top' },
           el('h3', null, p.nome),
-          el('div', { class: 'cv', 'aria-label': 'Mediana ' + IP.fmt.money(p.preco_mediano) }, IP.fmt.money(p.preco_mediano), el('small', null, 'mediana'))
+          el('div', { class: 'cv', 'aria-label': IP.t('prod.medianAria', { price: IP.fmt.money(p.preco_mediano) }) }, IP.fmt.money(p.preco_mediano), el('small', null, IP.t('prod.median')))
         ),
-        el('p', { class: 'typical' }, 'Normalmente entre ', el('b', null, IP.fmt.money(p.p10)), ' e ', el('b', null, IP.fmt.money(p.p90))),
-        el('div', { class: 'span-bar', role: 'img', 'aria-label': 'Faixa típica de ' + IP.fmt.money(p.p10) + ' a ' + IP.fmt.money(p.p90) + ', dentro do intervalo de ' + IP.fmt.money(p.preco_min) + ' a ' + IP.fmt.money(p.preco_max) }, fill, med),
+        el('p', { class: 'typical' }, IP.tn('common.typicalBetween', { low: el('b', null, IP.fmt.money(p.p10)), high: el('b', null, IP.fmt.money(p.p90)) })),
+        el('div', { class: 'span-bar', role: 'img', 'aria-label': IP.t('prod.rangeAria', { low: IP.fmt.money(p.p10), high: IP.fmt.money(p.p90), min: IP.fmt.money(p.preco_min), max: IP.fmt.money(p.preco_max) }) }, fill, med),
         el('div', { class: 'minmax' },
-          el('div', null, el('span', null, 'Mais barato'), el('b', null, IP.fmt.money(p.preco_min))),
-          el('div', null, el('span', null, 'Mais caro'), el('b', null, IP.fmt.money(p.preco_max)))
+          el('div', null, el('span', null, IP.t('prod.cheapest')), el('b', null, IP.fmt.money(p.preco_min))),
+          el('div', null, el('span', null, IP.t('prod.priciest')), el('b', null, IP.fmt.money(p.preco_max)))
         ),
         el('div', { class: 'card-foot' },
           el('span', { class: 'tag' }, p.familia),
-          el('span', { class: 'tag' }, IP.fmt.int(p.lojas) + ' lojas'),
-          el('span', { class: 'tag' }, IP.fmt.int(p.ufs) + ' UFs'))
+          el('span', { class: 'tag' }, IP.t('count.store', { count: p.lojas })),
+          el('span', { class: 'tag' }, IP.t('count.uf', { count: p.ufs })))
       ));
     });
     IP.stagger(box.children, 40, 320);
@@ -47,13 +47,13 @@
     if (!list) return;
     if (!d.produtos) { IP.emptyFile(list, 'produtos_mais_comuns.json'); return; }
     const rows = d.produtos.slice().sort((a, b) => b.lojas - a.lojas).slice(0, TOP);
-    if (!rows.length) { IP.showEmpty(list, 'Sem produtos neste export.'); return; }
+    if (!rows.length) { IP.showEmpty(list, IP.t('prod.emptyTop')); return; }
     const nProd = document.getElementById('prod-n');
     if (nProd) nProd.textContent = IP.fmt.int(d.produtos.length);
     IP.clear(list).append(...rows.map((p, i) => el('li', null,
       el('b', null, String(i + 1)),
       el('span', { class: 'hl-name' }, p.nome,
-        el('small', null, IP.fmt.int(p.lojas) + ' lojas · de ' + IP.fmt.money(p.preco_min) + ' a ' + IP.fmt.money(p.preco_max))),
+        el('small', null, IP.t('prod.topLine', { stores: IP.t('count.store', { count: p.lojas }), min: IP.fmt.money(p.preco_min), max: IP.fmt.money(p.preco_max) }))),
       el('span', { class: 'hl-val' }, IP.fmt.money(p.preco_medio))
     )));
   }

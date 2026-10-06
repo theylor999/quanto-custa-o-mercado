@@ -7,9 +7,9 @@
     const meta = document.getElementById('hero-meta');
     const kpis = d.kpis;
     if (!kpis) {
-      document.querySelectorAll('[data-kpi-text]').forEach((n) => { n.textContent = 'n/d'; });
-      document.querySelectorAll('[data-kpi]').forEach((n) => { n.textContent = 'n/d'; });
-      meta.textContent = 'Não foi possível carregar kpis.json.';
+      document.querySelectorAll('[data-kpi-text]').forEach((n) => { n.textContent = IP.t('common.na'); });
+      document.querySelectorAll('[data-kpi]').forEach((n) => { n.textContent = IP.t('common.na'); });
+      meta.textContent = IP.t('hero.kpisError');
       return;
     }
 
@@ -21,17 +21,17 @@
 
     document.querySelectorAll('[data-kpi-text]').forEach((n) => {
       const v = facts[n.dataset.kpiText];
-      n.textContent = v == null ? 'n/d' : IP.fmt.int(v);
+      n.textContent = v == null ? IP.t('common.na') : IP.fmt.int(v);
     });
 
     document.querySelectorAll('[data-kpi]').forEach((n) => {
       const v = facts[n.dataset.kpi];
-      if (v == null) { n.textContent = 'n/d'; return; }
+      if (v == null) { n.textContent = IP.t('common.na'); return; }
       IP.countUp(n, v, IP.fmt.int);
     });
 
     const parts = [];
-    if (kpis.data_ultima_coleta) parts.push('Última coleta: ' + IP.fmt.date(kpis.data_ultima_coleta));
+    if (kpis.data_ultima_coleta) parts.push(IP.t('hero.lastCollect', { date: IP.fmt.date(kpis.data_ultima_coleta) }));
     meta.textContent = parts.join(' · ');
   };
 })();

@@ -5,10 +5,10 @@
   const IP = window.IP;
 
   const METRICS = {
-    razao: { label: 'iFood vs DIEESE (mesmos itens)', fmt: (v) => IP.fmt.ratioPct(v, 0), needs: 'cesta' },
-    dieese_total: { label: 'Cesta DIEESE completa', fmt: IP.fmt.money },
-    dieese_itens: { label: 'DIEESE, itens casados', fmt: IP.fmt.money, needs: 'cesta' },
-    ifood: { label: 'iFood, produto mais barato', fmt: IP.fmt.money, needs: 'cesta' },
+    razao: { label: IP.t('cesta.m.razao'), fmt: (v) => IP.fmt.ratioPct(v, 0), needs: 'cesta' },
+    dieese_total: { label: IP.t('cesta.m.total'), fmt: IP.fmt.money },
+    dieese_itens: { label: IP.t('cesta.m.match'), fmt: IP.fmt.money, needs: 'cesta' },
+    ifood: { label: IP.t('cesta.m.ifood'), fmt: IP.fmt.money, needs: 'cesta' },
   };
   const FIELD = { razao: 'razao', dieese_total: 'full', dieese_itens: 'match', ifood: 'ifood' };
 
@@ -22,12 +22,12 @@
     const metricSel = document.getElementById('cesta-metric');
     const ufSel = document.getElementById('cesta-select');
 
-    if (!d.geo) { IP.showError(mapWrap, 'Não foi possível carregar geo/br_uf.json.'); return; }
+    if (!d.geo) { IP.showError(mapWrap, IP.t('common.geoError')); return; }
     const hasCesta = Array.isArray(d.cesta) && d.cesta.length > 0;
     const hasSeries = Array.isArray(d.dieese) && d.dieese.length > 0;
     if (!hasCesta && !hasSeries) {
       IP.emptyFile(detail, 'cesta_estado.json');
-      IP.showEmpty(mapWrap, 'Sem dados da cesta neste export.');
+      IP.showEmpty(mapWrap, IP.t('cesta.empty'));
       metricSel.disabled = true; ufSel.disabled = true;
       return;
     }
@@ -72,21 +72,21 @@
     metricSel.value = state.metric;
     rows.forEach((r) => ufSel.append(IP.el('option', { value: r.uf }, r.uf + ' · ' + r.nome)));
 
-    const mfmt = (v) => (v == null ? 'n/d' : IP.fmt.money(v));
+    const mfmt = (v) => (v == null ? IP.t('common.na') : IP.fmt.money(v));
     function tipRows(uf) {
       const r = byUf.get(uf);
-      const out = [['Cesta DIEESE completa', mfmt(r.full)]];
-      if (hasCesta) out.push(['DIEESE, itens casados', mfmt(r.match)], ['iFood mais barato', mfmt(r.ifood)], ['iFood vs DIEESE', r.razao == null ? 'n/d' : IP.fmt.ratioPct(r.razao, 0)]);
+      const out = [[IP.t('cesta.m.total'), mfmt(r.full)]];
+      if (hasCesta) out.push([IP.t('cesta.m.match'), mfmt(r.match)], [IP.t('cesta.tip.ifood'), mfmt(r.ifood)], [IP.t('cesta.vs'), r.razao == null ? IP.t('common.na') : IP.fmt.ratioPct(r.razao, 0)]);
       return out;
     }
     const map = IP.makeMap({
       wrap: mapWrap, legend, geo, enabled,
-      ariaLabel: 'Mapa do Brasil: cesta básica por UF',
+      ariaLabel: IP.t('cesta.map.aria'),
       tipFor: (uf) => ({ title: uf + ' · ' + byUf.get(uf).nome, rows: tipRows(uf) }),
       ariaFor(uf) {
         const r = byUf.get(uf);
-        let s = r.nome + ': cesta DIEESE completa ' + mfmt(r.full);
-        if (hasCesta) s += '; nos itens casados, DIEESE ' + mfmt(r.match) + ' e iFood ' + mfmt(r.ifood) + (r.razao == null ? '' : ' (' + IP.fmt.ratioPct(r.razao, 0) + ')');
+        let s = IP.t('cesta.aria.full', { nome: r.nome, full: mfmt(r.full) });
+        if (hasCesta) s += IP.t('cesta.aria.match', { match: mfmt(r.match), ifood: mfmt(r.ifood) }) + (r.razao == null ? '' : ' (' + IP.fmt.ratioPct(r.razao, 0) + ')');
         return s;
       },
       onSelect: (uf) => select(uf),
@@ -113,13 +113,13 @@
       IP.clear(rankLegend);
       if (dual) {
         rankLegend.append(
-          IP.el('span', null, IP.el('i', { style: 'background:var(--c-dieese)' }), 'DIEESE, itens casados'),
-          IP.el('span', null, IP.el('i', { style: 'background:var(--c-ifood)' }), 'iFood, produto mais barato')
+          IP.el('span', null, IP.el('i', { style: 'background:var(--c-dieese)' }), IP.t('cesta.m.match')),
+          IP.el('span', null, IP.el('i', { style: 'background:var(--c-ifood)' }), IP.t('cesta.m.ifood'))
         );
       } else {
         rankLegend.append(IP.el('span', null, IP.el('i', { style: 'background:var(--c-dieese)' }), m.label));
       }
-      rankTitle.textContent = 'Ranking · ' + m.label;
+      rankTitle.textContent = IP.t('cesta.rankTitle', { label: m.label });
       sorted.forEach((r) => {
         const it = items.get(r.uf);
         list.append(it.li);
@@ -134,11 +134,11 @@
           a.style.setProperty('--w', pct(r[key]));
           it.bars.append(a);
         }
-        it.val.textContent = r[key] == null ? 'n/d' : m.fmt(r[key]);
+        it.val.textContent = r[key] == null ? IP.t('common.na') : m.fmt(r[key]);
         it.val.classList.toggle('na', r[key] == null);
-        it.btn.setAttribute('aria-label', r.nome + ': ' + m.label + ' ' + (r[key] == null ? 'sem dado' : m.fmt(r[key])));
+        it.btn.setAttribute('aria-label', r.nome + ': ' + m.label + ' ' + (r[key] == null ? IP.t('cesta.noValue') : m.fmt(r[key])));
       });
-      list.setAttribute('aria-label', 'UFs ordenadas por ' + m.label);
+      list.setAttribute('aria-label', IP.t('cesta.rank.aria', { label: m.label }));
     }
 
     function paint() {
@@ -148,7 +148,7 @@
 
     /* ── Detalhe item a item ── */
     function diffCell(dif) {
-      if (dif == null) return IP.el('span', { class: 'muted' }, 'n/d');
+      if (dif == null) return IP.el('span', { class: 'muted' }, IP.t('common.na'));
       const w = Math.min(Math.abs(dif), 1) * 50;
       const bar = IP.el('span', { class: 'diff-bar ' + (dif < 0 ? 'neg' : 'pos') });
       bar.style.width = w.toFixed(1) + '%';
@@ -160,7 +160,7 @@
     function renderDetail() {
       IP.clear(detail);
       if (!hasCesta) {
-        IP.emptyFile(detail, 'cesta_estado.json', 'A comparação item a item precisa dele; o mapa mostra só a cesta completa do DIEESE.');
+        IP.emptyFile(detail, 'cesta_estado.json', IP.t('cesta.needsFile'));
         return;
       }
       const withIfood = rows.filter((r) => r.razao != null);
@@ -170,14 +170,13 @@
         detail.append(
           IP.el('div', { class: 'item-head' },
             IP.el('div', null,
-              IP.el('h3', null, 'Item a item, UF por UF'),
-              IP.el('p', null, 'Escolha uma UF no mapa ou no ranking para ver o preço por quilo ou litro de cada item, no DIEESE e no iFood.')),
-            mid == null ? null : IP.el('div', { class: 'ratio-chip' }, IP.fmt.ratioPct(mid, 0), IP.el('small', null, 'mediana de iFood vs DIEESE em ' + withIfood.length + ' UFs')))
+              IP.el('h3', null, IP.t('cesta.items.title')),
+              IP.el('p', null, IP.t('cesta.items.hint'))),
+            mid == null ? null : IP.el('div', { class: 'ratio-chip' }, IP.fmt.ratioPct(mid, 0), IP.el('small', null, IP.t('cesta.medianChip', { ufs: IP.t('count.uf', { count: withIfood.length }) }))))
         );
         if (sorted.length) {
           detail.append(IP.el('p', { class: 'hint' },
-            'iFood mais barato que o DIEESE: ' + sorted[0].uf + ' (' + IP.fmt.ratioPct(sorted[0].razao, 0) + '). Mais caro: ' + sorted[sorted.length - 1].uf + ' (' + IP.fmt.ratioPct(sorted[sorted.length - 1].razao, 0) + '). ' +
-            'UFs com poucos itens casados ficam de fora. Período do DIEESE: ' + (fullPeriod ? IP.fmt.monthYear(fullPeriod) : 'n/d') + '.'));
+            IP.t('cesta.hint', { low: sorted[0].uf, lowPct: IP.fmt.ratioPct(sorted[0].razao, 0), high: sorted[sorted.length - 1].uf, highPct: IP.fmt.ratioPct(sorted[sorted.length - 1].razao, 0), period: fullPeriod ? IP.fmt.monthYear(fullPeriod) : IP.t('common.na') })));
         }
         return;
       }
@@ -185,28 +184,28 @@
       const head = IP.el('div', { class: 'item-head' },
         IP.el('div', null,
           IP.el('h3', null, r.nome + ' (' + r.uf + ')'),
-          IP.el('p', null, r.n ? r.n + ' itens casados com o iFood' + (r.periodo ? ', pesquisa do DIEESE em ' + IP.fmt.monthYear(r.periodo) : '') + '. Preços em R$ por quilo ou litro.' : 'Esta UF não tem itens suficientes casados com o iFood neste export.')),
-        r.razao == null ? null : IP.el('div', { class: 'ratio-chip' }, IP.fmt.ratioPct(r.razao, 0), IP.el('small', null, 'iFood ' + mfmt(r.ifood) + ' · DIEESE ' + mfmt(r.match)))
+          IP.el('p', null, r.n ? IP.t('cesta.detail.matched', { count: r.n }) + (r.periodo ? IP.t('cesta.detail.period', { period: IP.fmt.monthYear(r.periodo) }) : '') + '. ' + IP.t('cesta.detail.unit') : IP.t('cesta.detail.few'))),
+        r.razao == null ? null : IP.el('div', { class: 'ratio-chip' }, IP.fmt.ratioPct(r.razao, 0), IP.el('small', null, IP.t('cesta.chip', { ifood: mfmt(r.ifood), dieese: mfmt(r.match) })))
       );
       detail.append(head);
       if (!r.detalhe.length) return;
 
-      const ul = IP.el('ul', { class: 'item-list', 'aria-label': 'Itens da cesta em ' + r.nome + ': DIEESE e produto mais barato do iFood, em reais por quilo ou litro' });
+      const ul = IP.el('ul', { class: 'item-list', 'aria-label': IP.t('cesta.list.aria', { nome: r.nome }) });
       ul.append(IP.el('li', { class: 'head', 'aria-hidden': 'true' },
-        IP.el('span', null, 'Item'), IP.el('span', { class: 'n' }, 'DIEESE'), IP.el('span', { class: 'n' }, 'iFood, mais barato'), IP.el('span', null, 'iFood vs DIEESE')));
+        IP.el('span', null, IP.t('cesta.h.item')), IP.el('span', { class: 'n' }, 'DIEESE'), IP.el('span', { class: 'n' }, IP.t('cesta.h.ifood')), IP.el('span', null, IP.t('cesta.vs'))));
       for (const it of r.detalhe) {
         const di = it.dieese_preco_unit_centavos, ifd = it.preco_unit_centavos;
         const dif = di && ifd != null ? ifd / di - 1 : null;
         ul.append(IP.el('li', null,
-          IP.el('span', { class: 'nm' }, IP.el('b', null, it.item), IP.el('small', null, it.qtd == null ? '' : IP.fmt.dec1(it.qtd).replace(',0', '') + ' kg ou L por mês')),
+          IP.el('span', { class: 'nm' }, IP.el('b', null, it.item), IP.el('small', null, it.qtd == null ? '' : IP.t('cesta.perMonth', { qty: IP.fmt.qty(it.qtd) }))),
           IP.el('span', { class: 'n' }, mfmt(di)),
           IP.el('span', { class: 'n' }, mfmt(ifd)),
           diffCell(dif)
         ));
       }
       detail.append(ul,
-        IP.el('p', { class: 'hint' }, 'Preços por quilo ou litro. A barra mostra a diferença: verde, iFood mais barato; rosa, mais caro. ',
-          IP.el('a', { href: 'tabelas.html#t-cesta' }, 'Ver todas as UFs na tabela →')));
+        IP.el('p', { class: 'hint' }, IP.t('cesta.barHint') + ' ',
+          IP.el('a', { href: 'tabelas.html#t-cesta' }, IP.t('cesta.allTable'))));
     }
 
     function select(uf) {

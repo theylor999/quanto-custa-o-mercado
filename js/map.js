@@ -13,7 +13,7 @@
     const svg = document.createElementNS(SVG_NS, 'svg');
     svg.setAttribute('viewBox', geo.viewBox.join(' '));
     svg.setAttribute('role', 'group');
-    svg.setAttribute('aria-label', opts.ariaLabel || 'Mapa do Brasil por UF');
+    svg.setAttribute('aria-label', opts.ariaLabel || IP.t('map.aria'));
     const gPaths = document.createElementNS(SVG_NS, 'g');
     const gLabels = document.createElementNS(SVG_NS, 'g');
     gLabels.setAttribute('aria-hidden', 'true');
@@ -32,7 +32,7 @@
       } else {
         p.setAttribute('class', 'uf-path nodata');
         p.setAttribute('role', 'img');
-        p.setAttribute('aria-label', u.nome + ': sem dados neste export');
+        p.setAttribute('aria-label', IP.t('map.noData', { nome: u.nome }));
       }
       gPaths.append(p);
       paths.set(u.uf, p);
@@ -87,7 +87,7 @@
           bar.style.setProperty('--ramp', IP.RAMP_CSS);
           legend.append(IP.el('span', null, fmt(lo)), bar, IP.el('span', null, fmt(hi)));
           legend.setAttribute('aria-hidden', 'false');
-          legend.setAttribute('aria-label', label + ': de ' + fmt(lo) + ' a ' + fmt(hi));
+          legend.setAttribute('aria-label', IP.t('map.legend', { label, lo: fmt(lo), hi: fmt(hi) }));
         } else legend.setAttribute('aria-hidden', 'true');
       },
       select(uf) {

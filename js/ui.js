@@ -12,7 +12,7 @@
     const btn = document.getElementById('theme-toggle');
     if (btn) {
       btn.setAttribute('aria-pressed', String(t === 'dark'));
-      btn.title = t === 'dark' ? 'Mudar para o tema claro' : 'Mudar para o tema escuro';
+      btn.title = IP.t(t === 'dark' ? 'ui.theme.toLight' : 'ui.theme.toDark');
     }
     if (persist) { try { localStorage.setItem(KEY, t); } catch (e) { /* modo privado */ } }
     IP.themeListeners.forEach((fn) => { try { fn(t); } catch (e) { console.error(e); } });
@@ -121,7 +121,7 @@
     function set(open) {
       panel.hidden = !open;
       btn.setAttribute('aria-expanded', String(open));
-      btn.setAttribute('aria-label', open ? 'Fechar menu de seções' : 'Abrir menu de seções');
+      btn.setAttribute('aria-label', IP.t(open ? 'ui.menu.close' : 'ui.menu.open'));
     }
     btn.addEventListener('click', () => set(panel.hidden));
     panel.addEventListener('click', (e) => { if (e.target.closest('a')) set(false); });

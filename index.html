@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Preços de supermercado no iFood · projeto pessoal de Theylor Machado</title>
-  <meta name="description" content="Projeto pessoal de ciência de dados de Theylor Machado: preços de supermercados do iFood coletados nas capitais brasileiras, com mapa por UF, cesta básica, produtos, variação de preço e séries do DIEESE e do IPCA.">
+  <title data-i18n="index.title">Preços de supermercado no iFood · projeto pessoal de Theylor Machado</title>
+  <meta name="description" content="Projeto pessoal de ciência de dados de Theylor Machado: preços de supermercados do iFood coletados nas capitais brasileiras, com mapa por UF, cesta básica, produtos, variação de preço e séries do DIEESE e do IPCA." data-i18n-attr="content:index.meta">
   <meta name="color-scheme" content="dark light">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafafa'/%3E%3Cpath d='M8 21l5-6 4 3 7-9' fill='none' stroke='%230a0a0c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <script>
@@ -18,12 +18,13 @@
       r.classList.add('js');
     })();
   </script>
+  <script src="js/i18n.js"></script>
   <link rel="preload" href="fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-page="inicio">
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="skip" href="#conteudo" data-i18n="ui.skip">Ir para o conteúdo</a>
 
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
     <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
@@ -35,35 +36,38 @@
 
   <header class="topbar" id="topo">
     <div class="topbar-row container">
-      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial">
+      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial" data-i18n-attr="aria-label:ui.brand.aria">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 21l5-6 4 3 7-9" fill="none" stroke="hsl(var(--background))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span>
-        <span class="brand-text" aria-hidden="true">preços<span class="brand-dot">/</span>ifood</span>
+        <span class="brand-text" aria-hidden="true" data-i18n-html="ui.brand.text">preços<span class="brand-dot">/</span>ifood</span>
       </a>
-      <nav class="nav" id="nav" aria-label="Páginas do site">
+      <nav class="nav" id="nav" aria-label="Páginas do site" data-i18n-attr="aria-label:ui.nav.aria">
         <ul>
-          <li><a class="nav-link" href="index.html" aria-current="page">Início</a></li>
-          <li><a class="nav-link" href="estados.html">Estados</a></li>
-          <li><a class="nav-link" href="capitais.html">Capitais</a></li>
-          <li><a class="nav-link" href="produtos.html">Produtos</a></li>
-          <li><a class="nav-link" href="tabelas.html">Tabelas</a></li>
-          <li><a class="nav-link" href="series.html">Séries</a></li>
-          <li><a class="nav-link" href="graficos.html">Gráficos</a></li>
-          <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li><a class="nav-link" href="index.html" aria-current="page" data-i18n="nav.home">Início</a></li>
+          <li><a class="nav-link" href="estados.html" data-i18n="nav.states">Estados</a></li>
+          <li><a class="nav-link" href="capitais.html" data-i18n="nav.capitals">Capitais</a></li>
+          <li><a class="nav-link" href="produtos.html" data-i18n="nav.products">Produtos</a></li>
+          <li><a class="nav-link" href="tabelas.html" data-i18n="nav.tables">Tabelas</a></li>
+          <li><a class="nav-link" href="series.html" data-i18n="nav.series">Séries</a></li>
+          <li><a class="nav-link" href="graficos.html" data-i18n="nav.charts">Gráficos</a></li>
+          <li><a class="nav-link" href="sobre.html" data-i18n="nav.about">Sobre</a></li>
         </ul>
       </nav>
       <div class="bar-actions">
-        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema">
+                <button class="lang-btn" id="lang-toggle" type="button" aria-pressed="false" aria-label="PT · EN, versão em inglês" title="PT · EN, versão em inglês" data-i18n-attr="aria-label:lang.aria,title:lang.aria">
+          <span class="lang-opt" data-lang="pt">PT</span><span class="lang-sep" aria-hidden="true">·</span><span class="lang-opt" data-lang="en">EN</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema" data-i18n-attr="aria-label:ui.theme.aria,title:ui.theme.title">
           <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
         </button>
         <div class="menu-root" id="menu-root">
-          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" aria-controls="menu-panel">
+          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" data-i18n-attr="aria-label:ui.menu.open" aria-controls="menu-panel">
             <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
             <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
-          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" hidden></nav>
+          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" data-i18n-attr="aria-label:ui.menu.aria" hidden></nav>
         </div>
       </div>
     </div>
@@ -75,24 +79,24 @@
       <div class="hero-bg" aria-hidden="true"><span class="hero-orb a"></span><span class="hero-orb b"></span></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="pill enter" style="--enter-delay:0ms"><i aria-hidden="true"></i> Projeto pessoal · ciência de dados</p>
-          <h1 id="hero-titulo" class="enter" style="--enter-delay:80ms"><em class="hero-name">Quanto custa o mercado nas capitais do Brasil?</em></h1>
+          <p class="pill enter" style="--enter-delay:0ms" data-i18n-html="index.hero.pill"><i aria-hidden="true"></i> Projeto pessoal · ciência de dados</p>
+          <h1 id="hero-titulo" class="enter" style="--enter-delay:80ms"><em class="hero-name" data-i18n="index.hero.title">Quanto custa o mercado nas capitais do Brasil?</em></h1>
           <div class="hero-byline enter" style="--enter-delay:120ms">
-            <p>Projeto pessoal de Theylor Machado · Cientista de Dados</p>
-            <ul class="social" aria-label="Links de Theylor Machado">
-              <li><a href="https://theylor.vercel.app" target="_blank" rel="noopener" aria-label="Portfólio de Theylor Machado" title="Portfólio"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-globe"/></svg></a></li>
-              <li><a href="https://github.com/theylor999" target="_blank" rel="noopener" aria-label="GitHub de Theylor Machado" title="GitHub"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-github"/></svg></a></li>
-              <li><a href="https://www.linkedin.com/in/theylor921" target="_blank" rel="noopener" aria-label="LinkedIn de Theylor Machado" title="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <p data-i18n="index.hero.byline">Projeto pessoal de Theylor Machado · Cientista de Dados</p>
+            <ul class="social" aria-label="Links de Theylor Machado" data-i18n-attr="aria-label:index.hero.socialLabel">
+              <li><a href="https://theylor.vercel.app" target="_blank" rel="noopener" aria-label="Portfólio de Theylor Machado" title="Portfólio" data-i18n-attr="aria-label:index.hero.portfolioLabel,title:index.hero.portfolioTitle"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-globe"/></svg></a></li>
+              <li><a href="https://github.com/theylor999" target="_blank" rel="noopener" aria-label="GitHub de Theylor Machado" title="GitHub" data-i18n-attr="aria-label:index.hero.githubLabel"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+              <li><a href="https://www.linkedin.com/in/theylor921" target="_blank" rel="noopener" aria-label="LinkedIn de Theylor Machado" title="LinkedIn" data-i18n-attr="aria-label:index.hero.linkedinLabel"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
             </ul>
           </div>
-          <p class="lede enter" style="--enter-delay:160ms" id="hero-pitch">
+          <p class="lede enter" style="--enter-delay:160ms" id="hero-pitch" data-i18n-html="index.hero.pitch">
             Este é um projeto meu: quanto custa o mercado em cada capital? Eu já tinha feito isso há anos e refiz do zero:
             <strong data-kpi-text="total_produtos">…</strong> preços de <strong data-kpi-text="total_lojas">…</strong> mercados
             nas <strong data-kpi-text="capitais">…</strong> capitais, coletados do site do iFood, guardados num Postgres e analisados nesta página.
           </p>
           <div class="hero-cta enter" style="--enter-delay:260ms">
-            <a class="btn btn-primary" href="#destaques">Comece pelos destaques <span aria-hidden="true">→</span></a>
-            <a class="btn btn-ghost" href="estados.html">Ver o mapa por UF</a>
+            <a class="btn btn-primary" href="#destaques" data-i18n-html="index.hero.ctaPrimary">Comece pelos destaques <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="estados.html" data-i18n="index.hero.ctaMap">Ver o mapa por UF</a>
           </div>
           <p class="hero-meta enter" style="--enter-delay:320ms" id="hero-meta" aria-live="polite"></p>
         </div>
@@ -100,23 +104,23 @@
           <div class="tilt-card" id="tilt-card">
             <span class="glow" aria-hidden="true"></span>
             <div class="profile">
-              <span class="photo-ring"><img src="img/theylor.webp" width="88" height="88" alt="Foto de Theylor Machado" decoding="async"></span>
+              <span class="photo-ring"><img src="img/theylor.webp" width="88" height="88" alt="Foto de Theylor Machado" decoding="async" data-i18n-attr="alt:index.hero.photoAlt"></span>
               <div class="profile-txt">
                 <p class="profile-name">Theylor Machado</p>
-                <p class="profile-role">Cientista de Dados</p>
+                <p class="profile-role" data-i18n="index.hero.role">Cientista de Dados</p>
               </div>
             </div>
-            <p class="tilt-title"><span>O projeto em números</span></p>
-            <dl class="kpis" id="kpis" aria-label="Números do projeto">
-              <div class="kpi"><dt>Lojas de supermercado</dt><dd><span class="num" data-kpi="total_lojas" data-fmt="int">–</span></dd></div>
-              <div class="kpi"><dt>Preços limpos</dt><dd><span class="num" data-kpi="total_produtos" data-fmt="int">–</span></dd></div>
-              <div class="kpi"><dt>Capitais</dt><dd><span class="num" data-kpi="capitais" data-fmt="int">–</span></dd></div>
-              <div class="kpi"><dt>Corredores analisados</dt><dd><span class="num" data-kpi="corredores" data-fmt="int">–</span></dd></div>
+            <p class="tilt-title"><span data-i18n="index.kpi.heading">O projeto em números</span></p>
+            <dl class="kpis" id="kpis" aria-label="Números do projeto" data-i18n-attr="aria-label:index.kpi.label">
+              <div class="kpi"><dt data-i18n="index.kpi.stores">Lojas de supermercado</dt><dd><span class="num" data-kpi="total_lojas" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt data-i18n="index.kpi.prices">Preços limpos</dt><dd><span class="num" data-kpi="total_produtos" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt data-i18n="index.kpi.capitals">Capitais</dt><dd><span class="num" data-kpi="capitais" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt data-i18n="index.kpi.aisles">Corredores analisados</dt><dd><span class="num" data-kpi="corredores" data-fmt="int">–</span></dd></div>
             </dl>
           </div>
         </div>
       </div>
-      <a class="scroll-cue-link" href="#destaques" aria-label="Rolar para os destaques">
+      <a class="scroll-cue-link" href="#destaques" aria-label="Rolar para os destaques" data-i18n-attr="aria-label:index.hero.scrollCue">
         <svg class="scroll-cue" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
     </section>
@@ -124,9 +128,9 @@
     <section class="section" id="destaques" aria-labelledby="destaques-titulo">
       <div class="container">
         <header class="section-head reveal">
-          <p class="eyebrow">Destaques</p>
-          <h2 id="destaques-titulo">Comece por aqui</h2>
-          <p class="lede">Cinco perguntas que eu quis responder. Os números saem dos dados e mudam se eu coletar de novo.</p>
+          <p class="eyebrow" data-i18n="index.highlights.eyebrow">Destaques</p>
+          <h2 id="destaques-titulo" data-i18n="index.highlights.heading">Comece por aqui</h2>
+          <p class="lede" data-i18n="index.highlights.lede">Cinco perguntas que eu quis responder. Os números saem dos dados e mudam se eu coletar de novo.</p>
         </header>
         <div class="hl-grid" id="hl-grid"></div>
       </div>
@@ -135,17 +139,17 @@
     <section class="section alt" id="explorar" aria-labelledby="explorar-titulo">
       <div class="container">
         <header class="section-head reveal">
-          <p class="eyebrow">Explore</p>
-          <h2 id="explorar-titulo">O que tem em cada página</h2>
+          <p class="eyebrow" data-i18n="index.explore.eyebrow">Explore</p>
+          <h2 id="explorar-titulo" data-i18n="index.explore.heading">O que tem em cada página</h2>
         </header>
         <ul class="explore">
-          <li><a class="card explore-card spotlight reveal" href="estados.html"><h3>Estados</h3><p>Mapa de preços por UF e a cesta do iFood contra a do DIEESE, estado a estado.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="capitais.html"><h3>Capitais</h3><p>Uma capital por vez: população, lojas e preço de arroz, leite e café.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="produtos.html"><h3>Produtos</h3><p>Itens do dia a dia, corredores e quanto o mesmo produto varia de loja para loja.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="tabelas.html"><h3>Tabelas</h3><p>Todas as tabelas num lugar só, com busca e ordenação.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="series.html"><h3>Séries</h3><p>Cesta básica do DIEESE e inflação (IPCA) ao longo do tempo.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="graficos.html"><h3>Gráficos</h3><p>Os gráficos do notebook de análise, para ampliar.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
-          <li><a class="card explore-card spotlight reveal" href="sobre.html"><h3>Sobre</h3><p>De onde vêm os dados, como limpo os números e quem sou.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="estados.html"><h3 data-i18n="index.explore.statesTitle">Estados</h3><p data-i18n="index.explore.statesText">Mapa de preços por UF e a cesta do iFood contra a do DIEESE, estado a estado.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="capitais.html"><h3 data-i18n="index.explore.capitalsTitle">Capitais</h3><p data-i18n="index.explore.capitalsText">Uma capital por vez: população, lojas e preço de arroz, leite e café.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="produtos.html"><h3 data-i18n="index.explore.productsTitle">Produtos</h3><p data-i18n="index.explore.productsText">Itens do dia a dia, corredores e quanto o mesmo produto varia de loja para loja.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="tabelas.html"><h3 data-i18n="index.explore.tablesTitle">Tabelas</h3><p data-i18n="index.explore.tablesText">Todas as tabelas num lugar só, com busca e ordenação.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="series.html"><h3 data-i18n="index.explore.seriesTitle">Séries</h3><p data-i18n="index.explore.seriesText">Cesta básica do DIEESE e inflação (IPCA) ao longo do tempo.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="graficos.html"><h3 data-i18n="index.explore.chartsTitle">Gráficos</h3><p data-i18n="index.explore.chartsText">Os gráficos do notebook de análise, para ampliar.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="sobre.html"><h3 data-i18n="index.explore.aboutTitle">Sobre</h3><p data-i18n="index.explore.aboutText">De onde vêm os dados, como limpo os números e quem sou.</p><span class="go" data-i18n-html="index.explore.open">Abrir <span aria-hidden="true">→</span></span></a></li>
         </ul>
       </div>
     </section>
@@ -153,12 +157,12 @@
 
   <footer class="footer">
     <div class="container footer-row">
-      <p id="foot-meta" class="muted">Carregando metadados…</p>
-      <p class="muted">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
+      <p id="foot-meta" class="muted" data-i18n="ui.footer.loading">Carregando metadados…</p>
+      <p class="muted" data-i18n-html="ui.footer.note">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
     </div>
   </footer>
 
-  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo">
+  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo" data-i18n-attr="aria-label:ui.totop">
     <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </a>
 

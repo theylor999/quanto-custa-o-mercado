@@ -43,16 +43,16 @@
         .sort((a, b) => IP.compare(val(col, a), val(col, b), state.sort.dir));
       IP.clear(tbody);
       if (!list.length) {
-        tbody.append(IP.el('tr', null, IP.el('td', { colspan: columns.length, class: 'muted' }, o.empty || 'Nada encontrado com esse filtro.')));
+        tbody.append(IP.el('tr', null, IP.el('td', { colspan: columns.length, class: 'muted' }, o.empty || IP.t('table.noMatch'))));
       }
       for (const r of list) {
         tbody.append(IP.el('tr', null, columns.map((c) => {
-          const v = c.cell ? c.cell(r) : (r[c.key] == null ? 'n/d' : r[c.key]);
+          const v = c.cell ? c.cell(r) : (r[c.key] == null ? IP.t('common.na') : r[c.key]);
           return c.row ? IP.el('th', { scope: 'row', class: c.cls || false }, v) : IP.el('td', { class: c.text ? false : 'r' }, v);
         })));
       }
       ths.forEach((th) => th.setAttribute('aria-sort', th.dataset.key === state.sort.key ? (state.sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'));
-      if (o.count) o.count.textContent = 'Mostrando ' + IP.fmt.int(list.length) + ' de ' + IP.fmt.int(all.length) + ' ' + (o.noun || 'linhas') + '.';
+      if (o.count) o.count.textContent = IP.t('table.count', { n: IP.fmt.int(list.length), total: IP.fmt.int(all.length), noun: o.noun || IP.t('tbl.noun.rows') });
     }
 
     if (o.search) o.search.input.addEventListener('input', render);

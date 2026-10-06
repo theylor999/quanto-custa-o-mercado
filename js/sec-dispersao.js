@@ -36,23 +36,23 @@
     const data = d.dispersao.map((r) => ({ ...r, _k: IP.norm(r.nome) }));
     if (data.some((r) => r.razao_p90_p10 != null)) {
       SORTS.p9010 = (a, b) => (b.razao_p90_p10 ?? -1) - (a.razao_p90_p10 ?? -1) || b.lojas - a.lojas;
-      sortSel.append(IP.el('option', { value: 'p9010' }, 'Maior diferença típica (teto ÷ piso)'));
+      sortSel.append(IP.el('option', { value: 'p9010' }, IP.t('disp.sort.p9010')));
     }
-    if (!data.length) { list.style.display = 'block'; IP.showEmpty(list, 'Sem dados de dispersão neste export.'); sortSel.disabled = true; q.disabled = true; return; }
+    if (!data.length) { list.style.display = 'block'; IP.showEmpty(list, IP.t('disp.empty')); sortSel.disabled = true; q.disabled = true; return; }
 
     const maxLojas = Math.max(...data.map((r) => r.lojas));
     const med = median(data.map((r) => r.coeficiente_variacao));
     const intro = maxLojas <= 1
-      ? 'Neste export cada produto aparece em uma única loja, então não há variação a medir (CV = 0%). Use uma coleta com várias lojas por produto.'
-      : IP.fmt.int(data.length) + ' produtos com mais lojas distintas. Mediana do CV: ' + (med == null ? 'n/d' : IP.fmt.pct(med)) + '.';
+      ? IP.t('disp.introSingle')
+      : IP.t('disp.intro', { count: data.length, cv: med == null ? IP.t('common.na') : IP.fmt.pct(med) });
 
     function render() {
       const term = IP.norm(q.value);
       const rows = data.filter((r) => !term || r._k.includes(term)).sort(SORTS[sortSel.value]);
-      note.textContent = rows.length === data.length ? intro : 'Mostrando ' + IP.fmt.int(rows.length) + ' de ' + IP.fmt.int(data.length) + ' produtos. ' + intro;
+      note.textContent = rows.length === data.length ? intro : IP.t('disp.showing', { n: IP.fmt.int(rows.length), total: IP.fmt.int(data.length) }) + ' ' + intro;
       IP.unobserveReveal(list);
       IP.clear(list);
-      if (!rows.length) { list.append(IP.el('li', { class: 'muted' }, 'Nenhum produto encontrado com esse filtro.')); return; }
+      if (!rows.length) { list.append(IP.el('li', { class: 'muted' }, IP.t('disp.noMatch'))); return; }
       rows.forEach((r) => {
         const ratio = razao(r);
         const minPct = r.preco_max > 0 ? (r.preco_min / r.preco_max) * 100 : 0;
@@ -61,24 +61,24 @@
         fill.style.right = '0';
         const cap = IP.el('span', { class: 'span-cap' });
         cap.style.left = 'calc(' + minPct.toFixed(2) + '% - 1px)';
-        const tags = [IP.el('span', { class: 'tag' }, IP.fmt.int(r.lojas) + (r.lojas === 1 ? ' loja' : ' lojas'))];
+        const tags = [IP.el('span', { class: 'tag' }, IP.t('count.store', { count: r.lojas }))];
         if (r.lojas > 1) {
-          tags.push(IP.el('span', { class: 'tag' }, ratio == null ? 'máx ÷ mín: n/d' : 'máx ≈ ' + IP.fmt.dec2(ratio) + '× mín'));
+          tags.push(IP.el('span', { class: 'tag' }, ratio == null ? IP.t('disp.ratioNa') : IP.t('disp.ratio', { ratio: IP.fmt.dec2(ratio) })));
         }
-        if (r.redes_distintas > 0) tags.push(IP.el('span', { class: 'tag' }, IP.fmt.int(r.redes_distintas) + ' redes'));
+        if (r.redes_distintas > 0) tags.push(IP.el('span', { class: 'tag' }, IP.t('count.chain', { count: r.redes_distintas })));
 
         list.append(IP.el('li', { class: 'card spotlight reveal' },
           IP.el('div', { class: 'card-top' },
             IP.el('h3', null, r.nome),
-            IP.el('div', { class: 'cv', 'aria-label': 'Coeficiente de variação ' + IP.fmt.pct(r.coeficiente_variacao) }, IP.fmt.pct(r.coeficiente_variacao), IP.el('small', null, 'variação (CV)'))
+            IP.el('div', { class: 'cv', 'aria-label': IP.t('disp.cvAria', { cv: IP.fmt.pct(r.coeficiente_variacao) }) }, IP.fmt.pct(r.coeficiente_variacao), IP.el('small', null, IP.t('disp.cv')))
           ),
-          IP.el('div', { class: 'span-bar', role: 'img', 'aria-label': 'Faixa de preço de ' + IP.fmt.money(r.preco_min) + ' a ' + IP.fmt.money(r.preco_max) }, fill, cap),
+          IP.el('div', { class: 'span-bar', role: 'img', 'aria-label': IP.t('disp.rangeAria', { min: IP.fmt.money(r.preco_min), max: IP.fmt.money(r.preco_max) }) }, fill, cap),
           IP.el('div', { class: 'minmax' },
-            IP.el('div', null, IP.el('span', null, 'Mínimo'), IP.el('b', null, IP.fmt.money(r.preco_min))),
-            IP.el('div', null, IP.el('span', null, 'Máximo'), IP.el('b', null, IP.fmt.money(r.preco_max)))
+            IP.el('div', null, IP.el('span', null, IP.t('disp.min')), IP.el('b', null, IP.fmt.money(r.preco_min))),
+            IP.el('div', null, IP.el('span', null, IP.t('disp.max')), IP.el('b', null, IP.fmt.money(r.preco_max)))
           ),
           r.p10 != null && r.p90 != null && r.lojas > 1
-            ? IP.el('p', { class: 'typical' }, 'Normalmente entre ', IP.el('b', null, IP.fmt.money(r.p10)), ' e ', IP.el('b', null, IP.fmt.money(r.p90)), r.preco_mediano != null ? ' (mediana ' + IP.fmt.money(r.preco_mediano) + ')' : '')
+            ? IP.el('p', { class: 'typical' }, IP.tn('common.typicalBetween', { low: IP.el('b', null, IP.fmt.money(r.p10)), high: IP.el('b', null, IP.fmt.money(r.p90)) }), r.preco_mediano != null ? ' ' + IP.t('common.medianParen', { price: IP.fmt.money(r.preco_mediano) }) : '')
             : null,
           IP.el('div', { class: 'card-foot' }, tags)
         ));

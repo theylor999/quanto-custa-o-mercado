@@ -4,7 +4,8 @@
   const IP = window.IP;
 
   const MAIN_CITIES = ['São Paulo', 'Rio de Janeiro', 'Brasília', 'Belo Horizonte', 'Salvador', 'Porto Alegre'];
-  const IPCA_NAMES = { '0': 'Índice geral', '11': 'Alimentação no domicílio' };
+  const IPCA_NAMES = { '0': 'ipca.name.0', '11': 'ipca.name.11' };
+  const ipcaName = (code) => (IPCA_NAMES[code] ? IP.t(IPCA_NAMES[code]) : IP.t('ipca.item', { code }));
 
   function cityColor(i) {
     const hue = (i * 137.508 + 8) % 360;
@@ -75,7 +76,7 @@
     const main = MAIN_CITIES.filter((c) => byCity.has(c));
 
     const years = [...new Set(periods.map((p) => p.slice(0, 4)))];
-    years.forEach((y, i) => fromSel.append(IP.el('option', { value: y }, i === 0 ? 'Todo o período (' + y + ')' : y)));
+    years.forEach((y, i) => fromSel.append(IP.el('option', { value: y }, i === 0 ? IP.t('die.allPeriod', { year: y }) : y)));
 
     const chips = new Map();
     const selected = new Set(main);
@@ -99,7 +100,7 @@
     document.getElementById('die-all').addEventListener('click', () => setSelection(cities));
     document.getElementById('die-none').addEventListener('click', () => setSelection([]));
 
-    const chart = new Chart(canvas, { type: 'line', data: { labels: [], datasets: [] }, options: baseOptions((v) => 'R$ ' + IP.fmt.int(v), (v) => IP.fmt.brl(v)) });
+    const chart = new Chart(canvas, { type: 'line', data: { labels: [], datasets: [] }, options: baseOptions((v) => IP.fmt.brl0(v), (v) => IP.fmt.brl(v)) });
 
     function draw() {
       const from = fromSel.value + '-01-01';
@@ -116,13 +117,13 @@
       const last = ps[ps.length - 1];
       const vals = [...selected].map((c) => [c, byCity.get(c).get(last)]).filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]);
       if (!vals.length) {
-        foot.textContent = selected.size ? 'Sem dados das cidades selecionadas no período.' : 'Nenhuma capital selecionada.';
-        canvas.setAttribute('aria-label', 'Gráfico da cesta básica: nenhuma capital selecionada');
+        foot.textContent = IP.t(selected.size ? 'die.noData' : 'die.noneSelected');
+        canvas.setAttribute('aria-label', IP.t('die.canvasNone'));
         return;
       }
       const hi = vals[0], lo = vals[vals.length - 1];
-      foot.textContent = IP.fmt.monthYear(last) + ': maior valor entre as selecionadas em ' + hi[0] + ' (' + IP.fmt.money(hi[1]) + '), menor em ' + lo[0] + ' (' + IP.fmt.money(lo[1]) + '). Fonte: DIEESE.';
-      canvas.setAttribute('aria-label', 'Cesta básica DIEESE de ' + IP.fmt.monthYear(ps[0]) + ' a ' + IP.fmt.monthYear(last) + ' para ' + vals.length + ' capitais; em ' + IP.fmt.monthYear(last) + ', de ' + IP.fmt.money(lo[1]) + ' em ' + lo[0] + ' a ' + IP.fmt.money(hi[1]) + ' em ' + hi[0]);
+      foot.textContent = IP.t('die.foot', { date: IP.fmt.monthYear(last), hiCity: hi[0], hiPrice: IP.fmt.money(hi[1]), loCity: lo[0], loPrice: IP.fmt.money(lo[1]) });
+      canvas.setAttribute('aria-label', IP.t('die.canvas', { from: IP.fmt.monthYear(ps[0]), to: IP.fmt.monthYear(last), count: vals.length, hiCity: hi[0], hiPrice: IP.fmt.money(hi[1]), loCity: lo[0], loPrice: IP.fmt.money(lo[1]) }));
     }
 
     fromSel.addEventListener('change', draw);
@@ -148,7 +149,7 @@
 
     const chips = new Map();
     codes.forEach((code) => {
-      const chip = checkChip('ipca-series', IPCA_NAMES[code] || 'Item ' + code, true, ipcaColor(code), () => {
+      const chip = checkChip('ipca-series', ipcaName(code), true, ipcaColor(code), () => {
         if (chip.input.checked) selected.add(code); else selected.delete(code);
         draw();
       });
@@ -180,7 +181,7 @@
       chart.data.datasets = codes.filter((c) => selected.has(c)).map((code) => {
         const m = byCode.get(code), col = ipcaColor(code);
         const data = mode === 'mensal' ? periods.map((p) => (m.has(p) ? m.get(p) : null)) : accumulate12(m);
-        return { label: IPCA_NAMES[code] || 'Item ' + code, data, borderColor: col, backgroundColor: col, spanGaps: true };
+        return { label: ipcaName(code), data, borderColor: col, backgroundColor: col, spanGaps: true };
       });
       themeChart(chart);
       chart.update();
@@ -188,11 +189,11 @@
       const parts = chart.data.datasets.map((ds) => {
         let i = ds.data.length - 1;
         while (i >= 0 && ds.data[i] == null) i--;
-        return i < 0 ? null : ds.label + ': ' + pctFmt(ds.data[i]) + ' em ' + chart.data.labels[i];
+        return i < 0 ? null : IP.t('ipca.point', { label: ds.label, value: pctFmt(ds.data[i]), date: chart.data.labels[i] });
       }).filter(Boolean);
-      const modeTxt = mode === 'mensal' ? 'variação mensal' : 'acumulado em 12 meses (composto a partir das variações mensais)';
-      foot.textContent = (parts.length ? 'Último ponto, ' + modeTxt + ': ' + parts.join('; ') + '. ' : 'Nenhuma série selecionada. ') + 'Fonte: IBGE SIDRA, Brasil.';
-      canvas.setAttribute('aria-label', 'IPCA do Brasil, ' + modeTxt + (parts.length ? '. ' + parts.join('; ') : ''));
+      const modeTxt = IP.t(mode === 'mensal' ? 'ipca.mode.monthly' : 'ipca.mode.yearly');
+      foot.textContent = (parts.length ? IP.t('ipca.last', { mode: modeTxt, parts: parts.join('; ') }) + ' ' : IP.t('ipca.none') + ' ') + IP.t('ipca.source');
+      canvas.setAttribute('aria-label', IP.t('ipca.canvas', { mode: modeTxt }) + (parts.length ? '. ' + parts.join('; ') : ''));
     }
 
     document.querySelectorAll('input[name="ipca-mode"]').forEach((inp) =>
@@ -209,19 +210,19 @@
     const dieBox = document.getElementById('die-chips');
     const ipcaBox = document.getElementById('ipca-chips');
     if (typeof Chart === 'undefined') {
-      IP.showError(dieBox, 'Chart.js não carregou (vendor/chart.umd.min.js).');
-      IP.showError(ipcaBox, 'Chart.js não carregou (vendor/chart.umd.min.js).');
+      IP.showError(dieBox, IP.t('series.chartError'));
+      IP.showError(ipcaBox, IP.t('series.chartError'));
       return;
     }
     Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
     Chart.defaults.font.size = 12;
 
     if (d.dieese && d.dieese.length) dieese(d.dieese);
-    else if (d.dieese) IP.showError(dieBox, 'series_dieese.json está vazio.');
+    else if (d.dieese) IP.showError(dieBox, IP.t('series.emptyFile', { file: 'series_dieese.json' }));
     else IP.emptyFile(dieBox, 'series_dieese.json');
 
     if (d.ipca && d.ipca.length) ipca(d.ipca);
-    else if (d.ipca) IP.showError(ipcaBox, 'series_ipca.json está vazio.');
+    else if (d.ipca) IP.showError(ipcaBox, IP.t('series.emptyFile', { file: 'series_ipca.json' }));
     else IP.emptyFile(ipcaBox, 'series_ipca.json');
   };
 })();

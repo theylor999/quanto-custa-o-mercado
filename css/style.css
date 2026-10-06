@@ -205,6 +205,16 @@ p { margin: 0 0 1em; }
 }
 .icon-btn:hover { background: var(--surface-2); border-color: var(--line); }
 .icon-btn svg { grid-area: 1 / 1; transition: opacity .3s, transform .4s var(--ease); }
+.lang-btn {
+  flex: none; height: 40px; padding: 0 .55rem; border-radius: 10px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); cursor: pointer; display: inline-flex; align-items: center; gap: .3rem;
+  font: 600 .74rem/1 var(--font-display); letter-spacing: .04em;
+  transition: background-color .2s, border-color .2s, color .2s;
+}
+.lang-btn:hover { background: var(--surface-2); border-color: var(--line-strong); color: var(--ink); }
+.lang-opt { padding: .18rem .02rem; border-bottom: 2px solid transparent; }
+.lang-sep { opacity: .5; }
+:root[lang="pt-BR"] .lang-opt[data-lang="pt"], :root[lang="en"] .lang-opt[data-lang="en"] { color: var(--ink); border-bottom-color: var(--accent); }
 :root[data-theme="light"] .icon-sun, :root:not([data-theme]) .icon-sun { opacity: 0; transform: rotate(-90deg) scale(.5); }
 :root[data-theme="dark"] .icon-moon { opacity: 0; transform: rotate(90deg) scale(.5); }
 .menu-btn .icon-close { opacity: 0; transform: rotate(-90deg) scale(.5); }

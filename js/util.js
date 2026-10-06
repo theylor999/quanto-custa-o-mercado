@@ -1,16 +1,22 @@
 /* Utilitários compartilhados. Scripts clássicos (sem módulos ES) para funcionar
-   em qualquer servidor estático, inclusive com tipos MIME imprecisos. */
+   em qualquer servidor estático, inclusive com tipos MIME imprecisos.
+   js/i18n.js carrega antes e já criou window.IP com IP.lang, IP.locale e IP.t. */
 (function () {
   'use strict';
 
-  const IP = (window.IP = { data: {}, sections: {}, themeListeners: [] });
+  const IP = (window.IP = Object.assign(window.IP || {}, { data: {}, sections: {}, themeListeners: [] }));
 
   IP.reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  const nfInt = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
-  const nfBRL = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
-  const nfDec1 = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-  const nfDec2 = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  /* Números, datas e moeda seguem o idioma (pt-BR: "R$ 7,98"; en: "R$7.98"). A moeda é sempre BRL. */
+  const loc = IP.locale;
+  const nfInt = new Intl.NumberFormat(loc, { maximumFractionDigits: 0 });
+  const nfBRL = new Intl.NumberFormat(loc, { style: 'currency', currency: 'BRL' });
+  const nfDec1 = new Intl.NumberFormat(loc, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const nfDec2 = new Intl.NumberFormat(loc, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const nfQty = new Intl.NumberFormat(loc, { minimumFractionDigits: 0, maximumFractionDigits: 1 });
+  const nfBRL0 = new Intl.NumberFormat(loc, { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+  const ordinalRules = new Intl.PluralRules('en-US', { type: 'ordinal' });
 
   IP.fmt = {
     int: (n) => nfInt.format(n),
@@ -18,11 +24,18 @@
     brl: (reais) => nfBRL.format(reais),
     dec1: (n) => nfDec1.format(n),
     dec2: (n) => nfDec2.format(n),
+    /* Quantidade com até uma casa: 1 -> "1"; 2,5 -> "2,5" (en: "2.5") */
+    qty: (n) => nfQty.format(n),
+    /* Reais inteiros, para eixos de gráfico: "R$ 700" (pt) | "R$700" (en) */
+    brl0: (reais) => nfBRL0.format(reais),
+    /* Posição em ordem: pt "3º"; en "1st", "2nd", "3rd", "4th" */
+    ordinal: (n) => (IP.lang === 'pt' ? n + 'º' : n + ({ one: 'st', two: 'nd', few: 'rd', other: 'th' })[ordinalRules.select(n)]),
     pct: (frac) => nfDec1.format(frac * 100) + '%',
-    /* Variação com sinal: 10,2 -> "+10,2%"; -6,6 -> "−6,6%" (menos tipográfico) */
+    /* Variação com sinal: 10,2 -> "+10,2%" (en: "+10.2%"); -6,6 -> "−6,6%" (menos tipográfico) */
     signed: (p, digits) => {
-      const n = digits === 0 ? nfInt.format(Math.abs(p)) : nfDec1.format(Math.abs(p));
-      if (Number(n.replace(',', '.')) === 0) return '0%';
+      const places = digits === 0 ? 0 : 1;
+      const n = (digits === 0 ? nfInt : nfDec1).format(Math.abs(p));
+      if (Number(Math.abs(p).toFixed(places)) === 0) return '0%';
       return (p < 0 ? '\u2212' : '+') + n + '%';
     },
     /* Índice com 100 = mediana -> variação contra a mediana (110,2 -> "+10,2%") */
@@ -32,53 +45,70 @@
     date: (iso) => {
       const d = new Date(iso);
       if (Number.isNaN(d.getTime())) return String(iso);
-      return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+      return d.toLocaleDateString(loc, { day: IP.lang === 'pt' ? '2-digit' : 'numeric', month: 'long', year: 'numeric' });
     },
     monthYear: (iso) => {
       // 'AAAA-MM-DD' lido como data local, sem deslocamento de fuso
       const [y, m] = iso.split('-').map(Number);
-      return new Date(y, m - 1, 1).toLocaleDateString('pt-BR', { month: 'short', year: 'numeric' }).replace('.', '');
+      return new Date(y, m - 1, 1).toLocaleDateString(loc, { month: 'short', year: 'numeric' }).replace('.', '');
     },
   };
 
   /* Preço de pacote (capitais.json): arroz, leite e café. Valor principal = pacote; linha pequena = valor por unidade e nº de produtos.
-     Devolve { nome, label, price, main, small, empty }. price = preço do pacote (centavos) ou null. */
-  const nProd = (n) => (n == null ? null : n + (n === 1 ? ' produto' : ' produtos'));
+     Devolve { nome, type, label, main, small, shown, price, empty }. price = preço do pacote (centavos) ou null. */
   IP.pack = function (r, kind) {
     const money = IP.fmt.money;
-    let nome, pkg = null, label = '', unit = null, unitTxt = '', n;
+    const nProd = (n) => (n == null ? null : IP.t('count.product', { count: n }));
+    let pkg = null, size = '', unit = null, unitTxt = '', n;
+    const nome = IP.t('item.' + kind);
     if (kind === 'arroz') {
-      nome = 'Arroz'; n = r.n_arroz; unit = r.preco_arroz_kg; unitTxt = '/kg';
-      if (r.arroz_5kg != null) { pkg = r.arroz_5kg; label = 'pacote ' + (r.arroz_pacote_kg || 5) + ' kg'; }
+      n = r.n_arroz; unit = r.preco_arroz_kg; unitTxt = '/kg';
+      if (r.arroz_5kg != null) { pkg = r.arroz_5kg; size = IP.fmt.qty(r.arroz_pacote_kg || 5) + ' kg'; }
     } else if (kind === 'leite') {
-      nome = 'Leite'; n = r.n_leite; unit = r.preco_leite_l; unitTxt = '/L';
-      if (r.leite_1l != null) { pkg = r.leite_1l; label = '1 L'; }
+      n = r.n_leite; unit = r.preco_leite_l; unitTxt = '/L';
+      if (r.leite_1l != null) { pkg = r.leite_1l; size = '1 L'; }
     } else {
-      nome = 'Café'; n = r.n_cafe; unit = r.preco_cafe_kg; unitTxt = '/kg';
-      if (r.cafe_500g != null) { pkg = r.cafe_500g; label = 'pacote 500 g'; }
-      else if (r.cafe_250g != null) { pkg = r.cafe_250g; label = 'pacote 250 g'; }
+      n = r.n_cafe; unit = r.preco_cafe_kg; unitTxt = '/kg';
+      if (r.cafe_500g != null) { pkg = r.cafe_500g; size = '500 g'; }
+      else if (r.cafe_250g != null) { pkg = r.cafe_250g; size = '250 g'; }
     }
-    const sample = n != null && n < 5 ? ' (amostra pequena)' : '';
+    const sample = n != null && n < 5 ? ' ' + IP.t('pack.smallSample') : '';
     const out = { nome, price: pkg, shown: pkg != null ? pkg : unit, empty: false };
     if (pkg != null) {
-      out.label = nome + ' · ' + label;
+      // o leite de 1 L já é o valor por litro: não repete o 1 L
+      out.type = kind === 'leite' ? size : IP.t('pack.size', { size });
+      out.label = nome + ' · ' + out.type;
       out.main = out.label + ': ' + money(pkg);
       const parts = [];
-      // o leite de 1 L já é o valor por litro: não repete
       if (unit != null && kind !== 'leite') parts.push(money(unit) + unitTxt);
       if (nProd(n)) parts.push(nProd(n));
       out.small = parts.length ? parts.join(' · ') + sample : null;
     } else if (unit != null) {
-      out.label = nome + ' · por ' + (unitTxt === '/L' ? 'litro' : 'kg');
+      out.type = IP.t(unitTxt === '/L' ? 'pack.perL' : 'pack.perKg');
+      out.label = nome + ' · ' + out.type;
       out.main = out.label + ': ' + money(unit);
       out.small = (nProd(n) ? nProd(n) : '') + sample || null;
     } else {
-      out.empty = true; out.label = nome; out.main = nome + ': sem dados suficientes'; out.small = null;
+      out.empty = true; out.type = ''; out.label = nome; out.main = nome + ': ' + IP.t('pack.empty'); out.small = null;
     }
-    out.pkgLabel = label;
-    out.unitLine = pkg != null && unit != null && kind !== 'leite' ? money(unit) + unitTxt : null;
     return out;
   };
+
+  /* Primeira letra em minúscula, menos em sigla ("Cesta DIEESE" -> "cesta DIEESE"; "PIB per capita" fica) */
+  IP.lcFirst = (s) => String(s).replace(/^(\p{Lu})(?!\p{Lu})/u, (c) => c.toLowerCase());
+
+  /** Como IP.t, mas aceita nós DOM em vars: IP.tn('k', { nome: IP.el('b', null, 'x') }) -> lista de textos e nós para IP.el. */
+  IP.tn = function (key, vars) {
+    const plain = {};
+    for (const [k, v] of Object.entries(vars || {})) plain[k] = v && v.nodeType ? '{' + k + '}' : v;
+    return IP.t(key, plain).split(/(\{\w+\})/).map((part) => {
+      const m = /^\{(\w+)\}$/.exec(part);
+      return m && vars && vars[m[1]] && vars[m[1]].nodeType ? vars[m[1]] : part;
+    }).filter((part) => part !== '');
+  };
+
+  /* Lista com "e" / "and" conforme o idioma: ['a', 'b', 'c'] -> "a, b e c" | "a, b, and c" */
+  IP.list = (items) => new Intl.ListFormat(IP.locale, { style: 'long', type: 'conjunction' }).format(items);
 
   /** Cria um elemento: IP.el('div', {class:'x', 'aria-label':'y'}, 'texto', outroNo) */
   IP.el = function (tag, attrs, ...children) {
@@ -119,14 +149,30 @@
     IP.clear(container).append(IP.el('p', { class: 'empty' }, msg));
   };
 
+  /* Avisos de _meta.json são texto de dado em português. Em inglês, os dois formatos conhecidos saem do dicionário;
+     qualquer outro aviso aparece como veio no arquivo. */
+  const AVISOS = [
+    [/^cesta_estado\.json: UFs com menos de (\d+) itens casados ou sem DIEESE, fora do arquivo: (.+)$/, 'meta.aviso.cesta'],
+    [/^indice_uf\.json: UFs com menos de (\d+) produtos comparáveis, com indice nulo: (.+)$/, 'meta.aviso.indice'],
+  ];
+  IP.aviso = function (texto) {
+    const s = String(texto);
+    if (IP.lang === 'pt') return s;
+    for (const [re, key] of AVISOS) {
+      const m = re.exec(s);
+      if (m) return IP.t(key, { n: m[1], ufs: m[2] });
+    }
+    return s;
+  };
+
   /* Arquivo ausente do export: mensagem de estado vazio, com os avisos de _meta.json que citam o arquivo. */
   IP.emptyFile = function (container, file, extra) {
     const meta = IP.data.meta;
     const avisos = meta && Array.isArray(meta.avisos) ? meta.avisos.filter((a) => String(a).includes(file.replace('.json', ''))) : [];
     IP.clear(container).append(IP.el('div', { class: 'empty' },
-      IP.el('p', { style: 'margin:0 0 .35rem' }, IP.el('b', null, 'Sem dados neste export. '), IP.el('code', null, file), ' não está disponível.' + (extra ? ' ' + extra : '')),
-      IP.el('p', { style: 'margin:0' }, 'Gere o export de uma coleta completa no pipeline de dados (fora deste repositório) e recarregue a página.'),
-      avisos.length ? IP.el('ul', null, avisos.map((a) => IP.el('li', null, a))) : null
+      IP.el('p', { style: 'margin:0 0 .35rem' }, IP.el('b', null, IP.t('empty.noData') + ' '), IP.el('code', null, file), ' ' + IP.t('empty.unavailable') + (extra ? ' ' + extra : '')),
+      IP.el('p', { style: 'margin:0' }, IP.t('empty.regenerate')),
+      avisos.length ? IP.el('ul', null, avisos.map((a) => IP.el('li', null, IP.aviso(a)))) : null
     ));
   };
 
