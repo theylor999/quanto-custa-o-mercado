@@ -1,0 +1,7652 @@
+[
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 36869
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 41556
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 45635
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 48317
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 45800
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 45232
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 48913
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 43339
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 45508
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 38802
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 38926
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 50298
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 39593
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 50713
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 37649
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 51751
+  },
+  {
+    "periodo": "2020-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 49220
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 37122
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 43295
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 45910
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 48178
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 44540
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 44791
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 49315
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 46299
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 44862
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 40398
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 40588
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 49283
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 42027
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 50555
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 39549
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 51976
+  },
+  {
+    "periodo": "2020-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 48003
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 39020
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 41880
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 46128
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 48415
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 47453
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 46547
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 51713
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 47511
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 45618
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 41405
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 42600
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 49788
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 43328
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 53365
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 40806
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 51850
+  },
+  {
+    "periodo": "2020-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 50478
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 40137
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 43419
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 48455
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 47117
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 49569
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 51123
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 52380
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 48246
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 49321
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 43793
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 42828
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 52701
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46126
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 54434
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 42512
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 55625
+  },
+  {
+    "periodo": "2020-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 53789
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 40015
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 45336
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 48402
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 44109
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 45535
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 53127
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 52407
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 45518
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 50599
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 44025
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 42957
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 51863
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 45145
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 55881
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 41033
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 55636
+  },
+  {
+    "periodo": "2020-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 53673
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 42003
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 45387
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 47519
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 45045
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 47501
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 50604
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 51697
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 46431
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 48078
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 43044
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 44246
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 51240
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 43530
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 51284
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 41918
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 54703
+  },
+  {
+    "periodo": "2020-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 50001
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 39275
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 44099
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 46506
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 44996
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 47979
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 52614
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 52203
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 45474
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 47286
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 41775
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 43066
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 51122
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 43610
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 50572
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 41522
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 52474
+  },
+  {
+    "periodo": "2020-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 48480
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 39847
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 44151
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 47807
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 44328
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 48446
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 50554
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 53042
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 46213
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 48315
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 41450
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 41947
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 52861
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 43919
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 52976
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 41872
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 53995
+  },
+  {
+    "periodo": "2020-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 50945
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 42711
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 45921
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 49162
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 44576
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 49280
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 52425
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 58240
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 48575
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 51052
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 43204
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 42231
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 55286
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46431
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 56375
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 45933
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 56335
+  },
+  {
+    "periodo": "2020-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 53936
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 44226
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 46822
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 51682
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 49048
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 52012
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 52112
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 58476
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 51054
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 53761
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 44997
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 43676
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 58139
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46905
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 59225
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 45450
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 59587
+  },
+  {
+    "periodo": "2020-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 55285
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 45132
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 48650
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 55237
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 57264
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 58908
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 54729
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 61698
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 53933
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 55746
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 45485
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 45543
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 61703
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46298
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62963
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 48810
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 62918
+  },
+  {
+    "periodo": "2020-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 60659
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 45316
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 50089
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 56853
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 59182
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 57648
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 54036
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 61557
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 53496
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 56380
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 47519
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Macaé",
+    "gasto_mensal": 56789
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 45879
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 61566
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46939
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62109
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 47908
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 63146
+  },
+  {
+    "periodo": "2020-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 60028
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 45084
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 50731
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 59226
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 61431
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 57862
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 55973
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 65137
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 53297
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 57476
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 47187
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 45449
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 62625
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 47422
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 64400
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 48894
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 65415
+  },
+  {
+    "periodo": "2021-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 62462
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 44590
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 51295
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 57353
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 59144
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 55158
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 57277
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 63981
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 52346
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 56067
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 48454
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 46443
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 63267
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46971
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62982
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 47919
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 63947
+  },
+  {
+    "periodo": "2021-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 60927
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 46879
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 51577
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 55567
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 58076
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 55299
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 57717
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 63275
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 51705
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 55205
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 47852
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 47756
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 62337
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 46133
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 61256
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 46128
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 62600
+  },
+  {
+    "periodo": "2021-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 59691
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 46966
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 50587
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 56578
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 58733
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 58626
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 58361
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 63453
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 52526
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 55627
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49004
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 47823
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 62611
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 47152
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62204
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 45756
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 63261
+  },
+  {
+    "periodo": "2021-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 61098
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 46843
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 51584
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 58824
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 57501
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 60889
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 63637
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 53221
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 56404
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49163
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 50170
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 63696
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 48080
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62276
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 47014
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 63640
+  },
+  {
+    "periodo": "2021-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 61696
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 47097
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 51853
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 53688
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 58499
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 56678
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 61857
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 64538
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 54161
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 55149
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49576
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 50020
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 64231
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 48392
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 61924
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 46730
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 62676
+  },
+  {
+    "periodo": "2021-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 61129
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 48842
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 52266
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 55512
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 58235
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 58884
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 61983
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 65443
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 56282
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 56213
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49230
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 50651
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 65692
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 48760
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 62134
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 48258
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 64051
+  },
+  {
+    "periodo": "2021-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 61245
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 45640
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 53013
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 57007
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 59459
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 60933
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 60047
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 65900
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 55224
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 56540
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49093
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 50804
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 66467
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 49146
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 63418
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 48544
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 65050
+  },
+  {
+    "periodo": "2021-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 61896
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 45403
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 53256
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 58974
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 61765
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 63083
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 61085
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 66285
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 55209
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 57408
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 47663
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 49329
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 67239
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 48940
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 64306
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 47886
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 67345
+  },
+  {
+    "periodo": "2021-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 63303
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 46417
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 53844
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 60502
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 64409
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 65340
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 63989
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 70069
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 56396
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 59178
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 49112
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 50466
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 69108
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 48526
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 67385
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 48759
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 69379
+  },
+  {
+    "periodo": "2021-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 67099
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 47326
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 55064
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 60142
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 63195
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 64517
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 63896
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 71053
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 58036
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 59964
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 50891
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 52108
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 68532
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 52473
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 66560
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 50594
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 69227
+  },
+  {
+    "periodo": "2021-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 66817
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 47805
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 55687
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 61394
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 62156
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 64137
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 62846
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 68956
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 57906
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 59724
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 51082
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 52954
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 68290
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 53237
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 66626
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 51821
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 69051
+  },
+  {
+    "periodo": "2021-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 66201
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 50782
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 56397
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 64183
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 66109
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 66011
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 63657
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 69559
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 60735
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 62491
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 53865
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 55106
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 67300
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 54310
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 69283
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 54001
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 71386
+  },
+  {
+    "periodo": "2022-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 67754
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51682
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 57486
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 65063
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 67098
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 67843
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 65290
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 70756
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 60960
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 64109
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 54933
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 55720
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 69591
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 54920
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 69737
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 55230
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 71565
+  },
+  {
+    "periodo": "2022-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68254
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 52499
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 58591
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 67802
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 70465
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71581
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 70159
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74547
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 63502
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 66348
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56784
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57533
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 73428
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 56157
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 75071
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56039
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 76119
+  },
+  {
+    "periodo": "2022-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70493
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55147
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 61031
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 70054
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74155
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 76173
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 73928
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 78800
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64763
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 68287
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 57370
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59537
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78086
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58274
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 76842
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57584
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 80399
+  },
+  {
+    "periodo": "2022-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72931
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54838
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 62858
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 65972
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69634
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 70612
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 71368
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 77207
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 62846
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 67463
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56767
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58642
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76876
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59589
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 72355
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57888
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 77793
+  },
+  {
+    "periodo": "2022-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69824
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54991
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63226
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 65672
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69836
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 70265
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 70126
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76041
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 65700
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 67408
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 58673
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61179
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 75419
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61234
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 73314
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 58082
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 77701
+  },
+  {
+    "periodo": "2022-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69284
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54250
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63314
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66167
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 70393
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 70700
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 68878
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 75373
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64146
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 67291
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 57263
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58758
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 75284
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61663
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 72375
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 58654
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 76045
+  },
+  {
+    "periodo": "2022-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70075
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53957
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63485
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 64801
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68931
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 69831
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 68569
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74621
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 62698
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 66083
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56821
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58074
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74806
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59814
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 71782
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57693
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 74978
+  },
+  {
+    "periodo": "2022-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69739
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51868
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 62246
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66224
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68721
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71109
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 67873
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74655
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 62087
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 65870
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56232
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58153
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74394
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58001
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 71414
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56031
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 75074
+  },
+  {
+    "periodo": "2022-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68626
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51551
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 61522
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 67482
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69909
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73365
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69631
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 75382
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 62257
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 67579
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 55957
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57340
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76882
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55840
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 73628
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56259
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 76220
+  },
+  {
+    "periodo": "2022-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70778
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51197
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 62429
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 70552
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71220
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73853
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 70984
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 77614
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 63067
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 68949
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 55243
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 56695
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78152
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55130
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 74925
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 55067
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 78268
+  },
+  {
+    "periodo": "2022-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 71357
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 52105
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63944
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 70652
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 72878
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 74421
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69866
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76919
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 65399
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70463
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56184
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58436
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76563
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 56509
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 75274
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57070
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79129
+  },
+  {
+    "periodo": "2022-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72878
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55528
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 65481
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 71753
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 72973
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 74309
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69518
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76065
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67981
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71062
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60006
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 62216
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 75733
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 60810
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 77019
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59483
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79057
+  },
+  {
+    "periodo": "2023-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72623
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55297
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66298
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 68909
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71974
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71994
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 67890
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74695
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67132
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 69518
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60010
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 62615
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74130
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 60693
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 74596
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59688
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 77938
+  },
+  {
+    "periodo": "2023-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70921
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54614
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66454
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66290
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69332
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71915
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 67976
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74223
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64792
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 68092
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 57957
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61503
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74612
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 57873
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 73562
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59140
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 78223
+  },
+  {
+    "periodo": "2023-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69916
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55389
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66077
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 67751
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71709
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73774
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69405
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76935
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 66979
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70494
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 58542
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 60594
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78355
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58226
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 75077
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 58599
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79468
+  },
+  {
+    "periodo": "2023-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70390
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55376
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66980
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 67530
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 70343
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 72409
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 70383
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76513
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67266
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70489
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 58095
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 60216
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78156
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58713
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 74976
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59432
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79182
+  },
+  {
+    "periodo": "2023-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70606
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 56711
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 65989
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66442
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68733
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73019
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 70122
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 77154
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 66116
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 66939
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60489
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63227
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77356
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 62114
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 74100
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59584
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 78305
+  },
+  {
+    "periodo": "2023-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69134
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54722
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 65042
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66238
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68758
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 69831
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69031
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74666
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 66150
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 65771
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 58131
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61364
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77716
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59271
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 73812
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59604
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 76995
+  },
+  {
+    "periodo": "2023-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 67454
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 54267
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 64011
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 65757
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68998
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 69170
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 68513
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74394
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64268
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 64153
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56507
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58118
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76059
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58072
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 72278
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57581
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 74847
+  },
+  {
+    "periodo": "2023-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 66088
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53234
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63353
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 64533
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 66220
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 67568
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 68123
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74764
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64048
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 63095
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56260
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59899
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74171
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 57020
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 71992
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57101
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 73477
+  },
+  {
+    "periodo": "2023-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68191
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 52196
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63292
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 63740
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 64776
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 68297
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 67501
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 73877
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64893
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 63607
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 55488
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 58212
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 73921
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55710
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 72117
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56310
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 73813
+  },
+  {
+    "periodo": "2023-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 67516
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51676
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 63518
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 65033
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 66758
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 67479
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 68344
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 74759
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 63991
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 64859
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 54833
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 56730
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 73918
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55104
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 72827
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 55086
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 74928
+  },
+  {
+    "periodo": "2023-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 67545
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51726
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 64544
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66739
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69874
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 69769
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69722
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 75850
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 63038
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 66936
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 54230
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 55606
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76653
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 53808
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 73861
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56081
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 76101
+  },
+  {
+    "periodo": "2023-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68886
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 52848
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 65678
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 73636
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74252
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73676
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 72623
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80031
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 61832
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71070
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 55977
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57571
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 79116
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55051
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 79177
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59326
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79339
+  },
+  {
+    "periodo": "2024-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 71930
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53440
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66512
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 74171
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74191
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 74820
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 73150
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 78336
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 62767
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70781
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56450
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57931
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 79681
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 55968
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 83280
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 60430
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 80838
+  },
+  {
+    "periodo": "2024-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 73183
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55522
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66753
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72496
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74768
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73002
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 72806
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 79121
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 66322
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70357
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 58323
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 60533
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77743
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59219
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 81225
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62013
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 81326
+  },
+  {
+    "periodo": "2024-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72934
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 58211
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 68145
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72410
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 72795
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73275
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 72664
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 78153
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 71468
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70101
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 61475
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63223
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77563
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61728
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 80115
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 64012
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 82284
+  },
+  {
+    "periodo": "2024-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72682
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 57955
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 69098
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 70179
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 73737
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 74848
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74146
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80103
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 70990
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 70451
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 62067
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 64010
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 80145
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61847
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 79667
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62305
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 82685
+  },
+  {
+    "periodo": "2024-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72391
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 56196
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 69558
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 71077
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 73893
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 74889
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 75491
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 81606
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 69733
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71143
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 59732
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59929
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 80486
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58290
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 81438
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 61322
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 83269
+  },
+  {
+    "periodo": "2024-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 71843
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 52428
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 68239
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66652
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 69431
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 73698
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 71832
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 78273
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67753
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 69598
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 57238
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57512
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76996
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 54843
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 75764
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57975
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 80977
+  },
+  {
+    "periodo": "2024-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68845
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51640
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66492
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66763
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 67314
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71460
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69708
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 75631
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 63048
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 66787
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 54890
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 55568
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 74082
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 53312
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 74564
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56072
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 78635
+  },
+  {
+    "periodo": "2024-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 68421
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 50619
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 64779
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 66322
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 68251
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 71463
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 69844
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 76833
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 61592
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 67293
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 55235
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 55400
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 75617
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 53532
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 75730
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 55362
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 79247
+  },
+  {
+    "periodo": "2024-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 69487
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 51931
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 64990
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 69015
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71105
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 75106
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 72662
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 79694
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 64134
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 69537
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 56646
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 57623
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77432
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 54819
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 77370
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 56065
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 80584
+  },
+  {
+    "periodo": "2024-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 70806
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53326
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66302
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 69883
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74225
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77245
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 73940
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 79962
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 66395
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 72765
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 59082
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59354
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78071
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 57816
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 77766
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 57478
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 82839
+  },
+  {
+    "periodo": "2024-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72651
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55408
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66583
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 70632
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74319
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77035
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74190
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80946
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67377
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 73250
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60691
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61732
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78372
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 58835
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 77984
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 58389
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 84129
+  },
+  {
+    "periodo": "2024-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74742
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 57143
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 69781
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72906
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 75603
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 76424
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74369
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80875
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 70044
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 75692
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 61864
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63411
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 77063
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59872
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 80288
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62023
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 85182
+  },
+  {
+    "periodo": "2025-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 73531
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 58045
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 70006
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 73531
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 77230
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77395
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74588
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80771
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 71066
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 73934
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 63441
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 64858
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 76974
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 62533
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 81490
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62880
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 86053
+  },
+  {
+    "periodo": "2025-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74549
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 56948
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 70490
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 75407
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 78265
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 78858
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 77283
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 83192
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 72746
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 75406
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 62689
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63647
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 79164
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 62714
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 83550
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 63358
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 88072
+  },
+  {
+    "periodo": "2025-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 76294
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 57993
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 72621
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 76235
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 71912
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 77584
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 80508
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 80011
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 79372
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 85820
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 74652
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 76743
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 64157
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66052
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 62257
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 67177
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 65700
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 74677
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 83422
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 66597
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 65271
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 67775
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 84970
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 63212
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 67177
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 90925
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 67510
+  },
+  {
+    "periodo": "2025-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 79283
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 57954
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 72638
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 74253
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 72350
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 77433
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 78942
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 81069
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 79139
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 85893
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 72849
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 75867
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 63673
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66959
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 61692
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 69995
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 64500
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 72037
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 81905
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 64674
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 63600
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 65463
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 84799
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62897
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 66798
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 89615
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 67079
+  },
+  {
+    "periodo": "2025-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 78069
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55728
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 70904
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 73473
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 71724
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 77335
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 79302
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 81763
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 78986
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 86783
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 73511
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 74427
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 63616
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66513
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 60904
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 67525
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63695
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 71732
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 83137
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 63583
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 63762
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 64039
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 84327
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62385
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 65532
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 88276
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 67241
+  },
+  {
+    "periodo": "2025-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 78239
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 56852
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 69623
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72869
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 71283
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 75819
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77576
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 81348
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 77093
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 84489
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 73809
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 73518
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 64800
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66641
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 62174
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 67478
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 64613
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 71577
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 83041
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 63669
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 65546
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 64117
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 82359
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 63508
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 66452
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 86590
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 67700
+  },
+  {
+    "periodo": "2025-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 76742
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55816
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 68730
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72590
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 69384
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 73910
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 76879
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 80022
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 75270
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 82311
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 72306
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71894
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 62208
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 67250
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 59623
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 65722
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 62200
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 72045
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 81114
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 63128
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 62914
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 64127
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 80134
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 61623
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 64421
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 85084
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 66341
+  },
+  {
+    "periodo": "2025-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74347
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55265
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Belém",
+    "gasto_mensal": 67284
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 71874
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 68195
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71981
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 78067
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 79403
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 75556
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 81107
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67742
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71052
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 61093
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 67272
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 59317
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 64232
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61027
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 67787
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 81144
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 62109
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61595
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 62099
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 79922
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 60174
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 62392
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 84226
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 64598
+  },
+  {
+    "periodo": "2025-09-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74501
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55018
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66431
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 71653
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 67895
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71765
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77728
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 79477
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 76177
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 82457
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 68678
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 72057
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60994
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 67909
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 59225
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 63325
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61218
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 69542
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 82357
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 61886
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Recife",
+    "gasto_mensal": 60803
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 63108
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 80137
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 60639
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 64331
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 84714
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 64672
+  },
+  {
+    "periodo": "2025-10-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74622
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53810
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66615
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 71201
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 66919
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 70340
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77956
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 78998
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74559
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80068
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67063
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 71739
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 59766
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 64325
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 57147
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 62939
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59138
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 67261
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78977
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 61413
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59873
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 63591
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 78396
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 59819
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 62682
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 84123
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 63626
+  },
+  {
+    "periodo": "2025-11-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 73152
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 53949
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Belém",
+    "gasto_mensal": 66657
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 72326
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 65214
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71421
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 77590
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 79129
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 73788
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80129
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 67700
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 72595
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 59766
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 65115
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 58969
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 62042
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59715
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 67763
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78422
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 59201
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Recife",
+    "gasto_mensal": 59610
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 62611
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 79206
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 60748
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 62943
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 84595
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 64509
+  },
+  {
+    "periodo": "2025-12-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 72722
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 55265
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Belém",
+    "gasto_mensal": 67355
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 73786
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 65579
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 72598
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 78341
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 81082
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74805
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 80633
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 69406
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 73594
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 60639
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66196
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 59283
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 64797
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Natal",
+    "gasto_mensal": 59586
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 70044
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 79537
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 60101
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Recife",
+    "gasto_mensal": 60009
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 63120
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 81760
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 61628
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 62586
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 85437
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 64180
+  },
+  {
+    "periodo": "2026-01-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 74285
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 56288
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Belém",
+    "gasto_mensal": 67412
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 73686
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 65919
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 71206
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 78029
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 79377
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 74556
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 79753
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 69299
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 73134
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 61873
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 66076
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 60392
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 62890
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Natal",
+    "gasto_mensal": 61684
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 69528
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 78684
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 60169
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Recife",
+    "gasto_mensal": 61198
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 63183
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 82698
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 61794
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 63001
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 85287
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 64865
+  },
+  {
+    "periodo": "2026-02-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 75615
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 59845
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Belém",
+    "gasto_mensal": 70068
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 78432
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 68001
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74641
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 80593
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 83840
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 76961
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 82435
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 72790
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 76044
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 65295
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 67206
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 64477
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 67556
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Natal",
+    "gasto_mensal": 65377
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 71745
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 79979
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 62342
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Recife",
+    "gasto_mensal": 65462
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 64115
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 86797
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 66214
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 63426
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 88394
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 66878
+  },
+  {
+    "periodo": "2026-03-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 79019
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 61932
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Belém",
+    "gasto_mensal": 72770
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 79375
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 70968
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 76822
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 82689
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 88006
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 79610
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 84726
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 76767
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 78708
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 67644
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 69488
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 65294
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 69729
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Natal",
+    "gasto_mensal": 66939
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 73453
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 81182
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 65835
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Recife",
+    "gasto_mensal": 67275
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 66714
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 87903
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 67725
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 63924
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 90614
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 69568
+  },
+  {
+    "periodo": "2026-04-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 81045
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 65273
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Belém",
+    "gasto_mensal": 75524
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 82599
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 72920
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 80209
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 84119
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 92549
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 84313
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 91343
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 82510
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 82571
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 71850
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 71672
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 69655
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 72827
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Natal",
+    "gasto_mensal": 71079
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 76716
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 87062
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 68988
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Recife",
+    "gasto_mensal": 72689
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 68911
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 91448
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 70728
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 65115
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 95220
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 73294
+  },
+  {
+    "periodo": "2026-05-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 84296
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 63040
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Belém",
+    "gasto_mensal": 75941
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 82672
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 75309
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 80085
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 84606
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 93793
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 84276
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 91842
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 82243
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 82122
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 68995
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 71746
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 67141
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 73290
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Natal",
+    "gasto_mensal": 68607
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 79023
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 88958
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 69801
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Recife",
+    "gasto_mensal": 70056
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 70428
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 92094
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 69622
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 65473
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 96547
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 73756
+  },
+  {
+    "periodo": "2026-06-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 84399
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 59407
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Belém",
+    "gasto_mensal": 72410
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 76525
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 73074
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 74710
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 80908
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 88127
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 80793
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 86073
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 76988
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 79279
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 64404
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 71329
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 61860
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 69780
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Natal",
+    "gasto_mensal": 63151
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 73189
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 84194
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 68483
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Recife",
+    "gasto_mensal": 66031
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 69204
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 85537
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 65032
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 65669
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 91501
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 70227
+  },
+  {
+    "periodo": "2026-07-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 79534
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Aracaju",
+    "gasto_mensal": 57098
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Belém",
+    "gasto_mensal": 70912
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Belo Horizonte",
+    "gasto_mensal": 75955
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Boa Vista",
+    "gasto_mensal": 69804
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Brasília",
+    "gasto_mensal": 73435
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Campo Grande",
+    "gasto_mensal": 80513
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Cuiabá",
+    "gasto_mensal": 85157
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Curitiba",
+    "gasto_mensal": 79887
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Florianópolis",
+    "gasto_mensal": 85090
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Fortaleza",
+    "gasto_mensal": 75556
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Goiânia",
+    "gasto_mensal": 77290
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "João Pessoa",
+    "gasto_mensal": 64113
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Macapá",
+    "gasto_mensal": 70268
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Maceió",
+    "gasto_mensal": 62745
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Manaus",
+    "gasto_mensal": 66602
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Natal",
+    "gasto_mensal": 62742
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Palmas",
+    "gasto_mensal": 71854
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Porto Alegre",
+    "gasto_mensal": 83934
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Porto Velho",
+    "gasto_mensal": 66479
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Recife",
+    "gasto_mensal": 64302
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Rio Branco",
+    "gasto_mensal": 65966
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Rio de Janeiro",
+    "gasto_mensal": 85119
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Salvador",
+    "gasto_mensal": 62889
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "São Luís",
+    "gasto_mensal": 66179
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "São Paulo",
+    "gasto_mensal": 90059
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Teresina",
+    "gasto_mensal": 68981
+  },
+  {
+    "periodo": "2026-08-01",
+    "cidade": "Vitória",
+    "gasto_mensal": 79000
+  }
+]

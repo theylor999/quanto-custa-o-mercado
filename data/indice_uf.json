@@ -1,0 +1,164 @@
+[
+  {
+    "uf": "SE",
+    "indice": 93.43,
+    "produtos": 117,
+    "preco_medio_bruto": 3699
+  },
+  {
+    "uf": "RR",
+    "indice": 93.73,
+    "produtos": 29,
+    "preco_medio_bruto": 2750
+  },
+  {
+    "uf": "PB",
+    "indice": 94.32,
+    "produtos": 147,
+    "preco_medio_bruto": 2703
+  },
+  {
+    "uf": "PI",
+    "indice": 96.35,
+    "produtos": 80,
+    "preco_medio_bruto": 2930
+  },
+  {
+    "uf": "PE",
+    "indice": 97.19,
+    "produtos": 179,
+    "preco_medio_bruto": 2569
+  },
+  {
+    "uf": "AC",
+    "indice": 97.57,
+    "produtos": 30,
+    "preco_medio_bruto": 2229
+  },
+  {
+    "uf": "BA",
+    "indice": 97.71,
+    "produtos": 103,
+    "preco_medio_bruto": 2681
+  },
+  {
+    "uf": "RN",
+    "indice": 98.35,
+    "produtos": 89,
+    "preco_medio_bruto": 3274
+  },
+  {
+    "uf": "AM",
+    "indice": 99.01,
+    "produtos": 130,
+    "preco_medio_bruto": 3198
+  },
+  {
+    "uf": "CE",
+    "indice": 99.09,
+    "produtos": 131,
+    "preco_medio_bruto": 2756
+  },
+  {
+    "uf": "MA",
+    "indice": 99.57,
+    "produtos": 50,
+    "preco_medio_bruto": 7322
+  },
+  {
+    "uf": "DF",
+    "indice": 99.72,
+    "produtos": 108,
+    "preco_medio_bruto": 3353
+  },
+  {
+    "uf": "AL",
+    "indice": 100.0,
+    "produtos": 56,
+    "preco_medio_bruto": 3153
+  },
+  {
+    "uf": "SP",
+    "indice": 100.03,
+    "produtos": 254,
+    "preco_medio_bruto": 3922
+  },
+  {
+    "uf": "MG",
+    "indice": 100.23,
+    "produtos": 165,
+    "preco_medio_bruto": 2575
+  },
+  {
+    "uf": "RS",
+    "indice": 100.6,
+    "produtos": 176,
+    "preco_medio_bruto": 2715
+  },
+  {
+    "uf": "RO",
+    "indice": 100.61,
+    "produtos": 32,
+    "preco_medio_bruto": 2650
+  },
+  {
+    "uf": "RJ",
+    "indice": 100.81,
+    "produtos": 204,
+    "preco_medio_bruto": 2627
+  },
+  {
+    "uf": "GO",
+    "indice": 102.06,
+    "produtos": 191,
+    "preco_medio_bruto": 2639
+  },
+  {
+    "uf": "PA",
+    "indice": 102.09,
+    "produtos": 133,
+    "preco_medio_bruto": 2863
+  },
+  {
+    "uf": "ES",
+    "indice": 102.23,
+    "produtos": 120,
+    "preco_medio_bruto": 2992
+  },
+  {
+    "uf": "PR",
+    "indice": 102.72,
+    "produtos": 222,
+    "preco_medio_bruto": 2669
+  },
+  {
+    "uf": "SC",
+    "indice": 103.45,
+    "produtos": 173,
+    "preco_medio_bruto": 3012
+  },
+  {
+    "uf": "MS",
+    "indice": 108.06,
+    "produtos": 125,
+    "preco_medio_bruto": 4761
+  },
+  {
+    "uf": "MT",
+    "indice": 110.15,
+    "produtos": 87,
+    "preco_medio_bruto": 2627
+  },
+  {
+    "uf": "AP",
+    "indice": null,
+    "produtos": 3,
+    "preco_medio_bruto": 3326
+  },
+  {
+    "uf": "TO",
+    "indice": null,
+    "produtos": 5,
+    "preco_medio_bruto": 2828
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "corredor": "Bebidas",
+    "produtos": 8502,
+    "preco_medio": 1112,
+    "desvio_padrao": 1449
+  },
+  {
+    "corredor": "Doces e Sobremesas",
+    "produtos": 7779,
+    "preco_medio": 1626,
+    "desvio_padrao": 2315
+  },
+  {
+    "corredor": "Biscoitos e Salgadinhos",
+    "produtos": 7731,
+    "preco_medio": 1169,
+    "desvio_padrao": 2776
+  },
+  {
+    "corredor": "Bebidas Alcoólicas",
+    "produtos": 7188,
+    "preco_medio": 5305,
+    "desvio_padrao": 8498
+  },
+  {
+    "corredor": "Alimentos Básicos",
+    "produtos": 7104,
+    "preco_medio": 1560,
+    "desvio_padrao": 2176
+  },
+  {
+    "corredor": "Matinais",
+    "produtos": 7024,
+    "preco_medio": 2364,
+    "desvio_padrao": 3258
+  },
+  {
+    "corredor": "Molhos, Condimentos e Conservas",
+    "produtos": 6904,
+    "preco_medio": 1590,
+    "desvio_padrao": 2647
+  },
+  {
+    "corredor": "Bazar e Utilidades",
+    "produtos": 6779,
+    "preco_medio": 3365,
+    "desvio_padrao": 7341
+  },
+  {
+    "corredor": "Higiene e Cuidados Pessoais",
+    "produtos": 6567,
+    "preco_medio": 2530,
+    "desvio_padrao": 3366
+  },
+  {
+    "corredor": "Limpeza",
+    "produtos": 6450,
+    "preco_medio": 2065,
+    "desvio_padrao": 2733
+  },
+  {
+    "corredor": "Padaria",
+    "produtos": 6076,
+    "preco_medio": 3263,
+    "desvio_padrao": 128279
+  },
+  {
+    "corredor": "Feira",
+    "produtos": 5863,
+    "preco_medio": 1428,
+    "desvio_padrao": 3215
+  },
+  {
+    "corredor": "Frios e Laticínios",
+    "produtos": 5775,
+    "preco_medio": 2482,
+    "desvio_padrao": 4041
+  },
+  {
+    "corredor": "Carnes, Aves e Peixes",
+    "produtos": 5757,
+    "preco_medio": 4093,
+    "desvio_padrao": 5742
+  },
+  {
+    "corredor": "Congelados e Resfriados",
+    "produtos": 5641,
+    "preco_medio": 2089,
+    "desvio_padrao": 1987
+  },
+  {
+    "corredor": "Iogurtes",
+    "produtos": 5608,
+    "preco_medio": 1120,
+    "desvio_padrao": 1287
+  },
+  {
+    "corredor": "Suplementos e Vitaminas",
+    "produtos": 5181,
+    "preco_medio": 4517,
+    "desvio_padrao": 7514
+  },
+  {
+    "corredor": "Leites",
+    "produtos": 5106,
+    "preco_medio": 2528,
+    "desvio_padrao": 3438
+  },
+  {
+    "corredor": "Pet Shop",
+    "produtos": 4735,
+    "preco_medio": 2368,
+    "desvio_padrao": 3614
+  },
+  {
+    "corredor": "Étnicos",
+    "produtos": 3884,
+    "preco_medio": 1953,
+    "desvio_padrao": 1837
+  }
+]

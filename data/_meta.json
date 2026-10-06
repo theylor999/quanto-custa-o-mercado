@@ -1,0 +1,28 @@
+{
+  "run_id": 87,
+  "generated_at": "2026-10-06T20:30:25+00:00",
+  "files": [
+    "_meta.json",
+    "capitais.json",
+    "cesta_estado.json",
+    "corredores.json",
+    "cotidiano.json",
+    "dispersao_por_produto.json",
+    "indice_uf.json",
+    "kpis.json",
+    "por_uf.json",
+    "produtos_mais_comuns.json",
+    "redes.json",
+    "series_dieese.json",
+    "series_ipca.json"
+  ],
+  "avisos": [
+    "cesta_estado.json: UFs com menos de 8 itens casados ou sem DIEESE, fora do arquivo: AC, AP, RN, RO, RR, TO",
+    "indice_uf.json: UFs com menos de 8 produtos comparáveis, com indice nulo: AP, TO"
+  ],
+  "limpeza": {
+    "regra": "Preços até R$ 0,00 saem. Em cada grupo (nome normalizado do produto, corredor) com 8 ou mais preços positivos, calcula-se a mediana e o MAD (desvio absoluto mediano) do log do preço, e saem os preços fora de mediana ± 4 × 1,4826 × MAD; com MAD = 0 vale a cerca do intervalo interquartil (Q1 − 1,5 × IQR a Q3 + 1,5 × IQR), e com IQR também 0 o grupo inteiro é mantido. Grupos com menos de 8 preços só perdem os preços até R$ 0,00.",
+    "removidos": 1204,
+    "percentual": 0.74
+  }
+}

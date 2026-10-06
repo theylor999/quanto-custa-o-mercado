@@ -1,0 +1,802 @@
+[
+  {
+    "periodo": "2020-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.21
+  },
+  {
+    "periodo": "2020-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.2
+  },
+  {
+    "periodo": "2020-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.25
+  },
+  {
+    "periodo": "2020-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.06
+  },
+  {
+    "periodo": "2020-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.07
+  },
+  {
+    "periodo": "2020-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.4
+  },
+  {
+    "periodo": "2020-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.31
+  },
+  {
+    "periodo": "2020-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 2.24
+  },
+  {
+    "periodo": "2020-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.38
+  },
+  {
+    "periodo": "2020-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.33
+  },
+  {
+    "periodo": "2020-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.26
+  },
+  {
+    "periodo": "2020-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.45
+  },
+  {
+    "periodo": "2020-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.36
+  },
+  {
+    "periodo": "2020-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.14
+  },
+  {
+    "periodo": "2020-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.24
+  },
+  {
+    "periodo": "2020-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.15
+  },
+  {
+    "periodo": "2020-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.64
+  },
+  {
+    "periodo": "2020-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": 2.89
+  },
+  {
+    "periodo": "2020-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.86
+  },
+  {
+    "periodo": "2020-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": 2.57
+  },
+  {
+    "periodo": "2020-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.89
+  },
+  {
+    "periodo": "2020-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": 3.33
+  },
+  {
+    "periodo": "2020-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.35
+  },
+  {
+    "periodo": "2020-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 2.12
+  },
+  {
+    "periodo": "2021-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.25
+  },
+  {
+    "periodo": "2021-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.06
+  },
+  {
+    "periodo": "2021-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.86
+  },
+  {
+    "periodo": "2021-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.28
+  },
+  {
+    "periodo": "2021-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.93
+  },
+  {
+    "periodo": "2021-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.17
+  },
+  {
+    "periodo": "2021-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.31
+  },
+  {
+    "periodo": "2021-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.47
+  },
+  {
+    "periodo": "2021-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.83
+  },
+  {
+    "periodo": "2021-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.23
+  },
+  {
+    "periodo": "2021-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.53
+  },
+  {
+    "periodo": "2021-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.33
+  },
+  {
+    "periodo": "2021-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.96
+  },
+  {
+    "periodo": "2021-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.78
+  },
+  {
+    "periodo": "2021-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.87
+  },
+  {
+    "periodo": "2021-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.63
+  },
+  {
+    "periodo": "2021-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.16
+  },
+  {
+    "periodo": "2021-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.19
+  },
+  {
+    "periodo": "2021-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.25
+  },
+  {
+    "periodo": "2021-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.32
+  },
+  {
+    "periodo": "2021-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.95
+  },
+  {
+    "periodo": "2021-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.04
+  },
+  {
+    "periodo": "2021-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.73
+  },
+  {
+    "periodo": "2021-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.79
+  },
+  {
+    "periodo": "2022-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.54
+  },
+  {
+    "periodo": "2022-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.44
+  },
+  {
+    "periodo": "2022-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.01
+  },
+  {
+    "periodo": "2022-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.65
+  },
+  {
+    "periodo": "2022-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.62
+  },
+  {
+    "periodo": "2022-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": 3.09
+  },
+  {
+    "periodo": "2022-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.06
+  },
+  {
+    "periodo": "2022-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 2.59
+  },
+  {
+    "periodo": "2022-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.47
+  },
+  {
+    "periodo": "2022-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.43
+  },
+  {
+    "periodo": "2022-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.67
+  },
+  {
+    "periodo": "2022-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.63
+  },
+  {
+    "periodo": "2022-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.68
+  },
+  {
+    "periodo": "2022-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.47
+  },
+  {
+    "periodo": "2022-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.36
+  },
+  {
+    "periodo": "2022-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.01
+  },
+  {
+    "periodo": "2022-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.29
+  },
+  {
+    "periodo": "2022-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.86
+  },
+  {
+    "periodo": "2022-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.59
+  },
+  {
+    "periodo": "2022-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.8
+  },
+  {
+    "periodo": "2022-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.41
+  },
+  {
+    "periodo": "2022-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.58
+  },
+  {
+    "periodo": "2022-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.62
+  },
+  {
+    "periodo": "2022-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.71
+  },
+  {
+    "periodo": "2023-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.53
+  },
+  {
+    "periodo": "2023-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.6
+  },
+  {
+    "periodo": "2023-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.84
+  },
+  {
+    "periodo": "2023-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.04
+  },
+  {
+    "periodo": "2023-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.71
+  },
+  {
+    "periodo": "2023-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.14
+  },
+  {
+    "periodo": "2023-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.61
+  },
+  {
+    "periodo": "2023-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.73
+  },
+  {
+    "periodo": "2023-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.23
+  },
+  {
+    "periodo": "2023-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.0
+  },
+  {
+    "periodo": "2023-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.08
+  },
+  {
+    "periodo": "2023-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": -1.07
+  },
+  {
+    "periodo": "2023-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.12
+  },
+  {
+    "periodo": "2023-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.72
+  },
+  {
+    "periodo": "2023-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.23
+  },
+  {
+    "periodo": "2023-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": -1.26
+  },
+  {
+    "periodo": "2023-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.26
+  },
+  {
+    "periodo": "2023-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": -1.02
+  },
+  {
+    "periodo": "2023-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.24
+  },
+  {
+    "periodo": "2023-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.27
+  },
+  {
+    "periodo": "2023-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.28
+  },
+  {
+    "periodo": "2023-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.75
+  },
+  {
+    "periodo": "2023-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.56
+  },
+  {
+    "periodo": "2023-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.34
+  },
+  {
+    "periodo": "2024-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.42
+  },
+  {
+    "periodo": "2024-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.81
+  },
+  {
+    "periodo": "2024-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.83
+  },
+  {
+    "periodo": "2024-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.12
+  },
+  {
+    "periodo": "2024-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.16
+  },
+  {
+    "periodo": "2024-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.59
+  },
+  {
+    "periodo": "2024-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.38
+  },
+  {
+    "periodo": "2024-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.81
+  },
+  {
+    "periodo": "2024-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.46
+  },
+  {
+    "periodo": "2024-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.66
+  },
+  {
+    "periodo": "2024-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.21
+  },
+  {
+    "periodo": "2024-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.47
+  },
+  {
+    "periodo": "2024-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.38
+  },
+  {
+    "periodo": "2024-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": -1.51
+  },
+  {
+    "periodo": "2024-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.02
+  },
+  {
+    "periodo": "2024-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.73
+  },
+  {
+    "periodo": "2024-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.44
+  },
+  {
+    "periodo": "2024-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.56
+  },
+  {
+    "periodo": "2024-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.56
+  },
+  {
+    "periodo": "2024-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.22
+  },
+  {
+    "periodo": "2024-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.39
+  },
+  {
+    "periodo": "2024-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.81
+  },
+  {
+    "periodo": "2024-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.52
+  },
+  {
+    "periodo": "2024-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.17
+  },
+  {
+    "periodo": "2025-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.16
+  },
+  {
+    "periodo": "2025-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.07
+  },
+  {
+    "periodo": "2025-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 1.31
+  },
+  {
+    "periodo": "2025-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.79
+  },
+  {
+    "periodo": "2025-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.56
+  },
+  {
+    "periodo": "2025-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.31
+  },
+  {
+    "periodo": "2025-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.43
+  },
+  {
+    "periodo": "2025-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.83
+  },
+  {
+    "periodo": "2025-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.26
+  },
+  {
+    "periodo": "2025-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.02
+  },
+  {
+    "periodo": "2025-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.24
+  },
+  {
+    "periodo": "2025-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.43
+  },
+  {
+    "periodo": "2025-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.26
+  },
+  {
+    "periodo": "2025-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.69
+  },
+  {
+    "periodo": "2025-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.11
+  },
+  {
+    "periodo": "2025-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.83
+  },
+  {
+    "periodo": "2025-09-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.48
+  },
+  {
+    "periodo": "2025-09-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.41
+  },
+  {
+    "periodo": "2025-10-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.09
+  },
+  {
+    "periodo": "2025-10-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.16
+  },
+  {
+    "periodo": "2025-11-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.18
+  },
+  {
+    "periodo": "2025-11-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.2
+  },
+  {
+    "periodo": "2025-12-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.33
+  },
+  {
+    "periodo": "2025-12-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.14
+  },
+  {
+    "periodo": "2026-01-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.33
+  },
+  {
+    "periodo": "2026-01-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.1
+  },
+  {
+    "periodo": "2026-02-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.7
+  },
+  {
+    "periodo": "2026-02-01",
+    "item_codigo": "11",
+    "variacao_mensal": 0.23
+  },
+  {
+    "periodo": "2026-03-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.88
+  },
+  {
+    "periodo": "2026-03-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.94
+  },
+  {
+    "periodo": "2026-04-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.67
+  },
+  {
+    "periodo": "2026-04-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.64
+  },
+  {
+    "periodo": "2026-05-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.58
+  },
+  {
+    "periodo": "2026-05-01",
+    "item_codigo": "11",
+    "variacao_mensal": 1.65
+  },
+  {
+    "periodo": "2026-06-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.16
+  },
+  {
+    "periodo": "2026-06-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.39
+  },
+  {
+    "periodo": "2026-07-01",
+    "item_codigo": "0",
+    "variacao_mensal": 0.07
+  },
+  {
+    "periodo": "2026-07-01",
+    "item_codigo": "11",
+    "variacao_mensal": -1.14
+  },
+  {
+    "periodo": "2026-08-01",
+    "item_codigo": "0",
+    "variacao_mensal": -0.32
+  },
+  {
+    "periodo": "2026-08-01",
+    "item_codigo": "11",
+    "variacao_mensal": -0.61
+  }
+]

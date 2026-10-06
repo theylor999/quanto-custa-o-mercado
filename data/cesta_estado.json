@@ -1,0 +1,1418 @@
+[
+  {
+    "uf": "AL",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 41114,
+    "ifood_mais_barato": 32965,
+    "razao": 0.8018,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 2914,
+        "dieese_preco_unit_centavos": 4983
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 692,
+        "dieese_preco_unit_centavos": 684
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 750,
+        "dieese_preco_unit_centavos": 958
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 799,
+        "dieese_preco_unit_centavos": 524
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 4764,
+        "dieese_preco_unit_centavos": 6026
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 599,
+        "dieese_preco_unit_centavos": 360
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1556,
+        "dieese_preco_unit_centavos": 941
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 6430,
+        "dieese_preco_unit_centavos": 6207
+      }
+    ]
+  },
+  {
+    "uf": "AM",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 41170,
+    "ifood_mais_barato": 36766,
+    "razao": 0.893,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 4228,
+        "dieese_preco_unit_centavos": 4751
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 660,
+        "dieese_preco_unit_centavos": 760
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 756,
+        "dieese_preco_unit_centavos": 893
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 500,
+        "dieese_preco_unit_centavos": 475
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 480,
+        "dieese_preco_unit_centavos": 559
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 3860,
+        "dieese_preco_unit_centavos": 6310
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 400,
+        "dieese_preco_unit_centavos": 301
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1032,
+        "dieese_preco_unit_centavos": 877
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5134,
+        "dieese_preco_unit_centavos": 5653
+      }
+    ]
+  },
+  {
+    "uf": "BA",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 46467,
+    "ifood_mais_barato": 44549,
+    "razao": 0.9587,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 2398,
+        "dieese_preco_unit_centavos": 4473
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 519,
+        "dieese_preco_unit_centavos": 797
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 849,
+        "dieese_preco_unit_centavos": 1004
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 373,
+        "dieese_preco_unit_centavos": 538
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 1199,
+        "dieese_preco_unit_centavos": 718
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 1200,
+        "dieese_preco_unit_centavos": 484
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 5096,
+        "dieese_preco_unit_centavos": 6257
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 690,
+        "dieese_preco_unit_centavos": 361
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5180,
+        "dieese_preco_unit_centavos": 5573
+      }
+    ]
+  },
+  {
+    "uf": "CE",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 10,
+    "dieese_mesmos_itens": 55681,
+    "ifood_mais_barato": 58134,
+    "razao": 1.0441,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 3634,
+        "dieese_preco_unit_centavos": 5617
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 695,
+        "dieese_preco_unit_centavos": 729
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 789,
+        "dieese_preco_unit_centavos": 918
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 461,
+        "dieese_preco_unit_centavos": 508
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 431,
+        "dieese_preco_unit_centavos": 528
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 1912,
+        "dieese_preco_unit_centavos": 773
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 5828,
+        "dieese_preco_unit_centavos": 6194
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 379,
+        "dieese_preco_unit_centavos": 358
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1133,
+        "dieese_preco_unit_centavos": 960
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5678,
+        "dieese_preco_unit_centavos": 7218
+      }
+    ]
+  },
+  {
+    "uf": "DF",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 51255,
+    "ifood_mais_barato": 46049,
+    "razao": 0.8984,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.0,
+        "preco_unit_centavos": 3268,
+        "dieese_preco_unit_centavos": 4531
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 499,
+        "dieese_preco_unit_centavos": 677
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 820,
+        "dieese_preco_unit_centavos": 898
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 660,
+        "dieese_preco_unit_centavos": 473
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 318,
+        "dieese_preco_unit_centavos": 465
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1200,
+        "dieese_preco_unit_centavos": 633
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 4142,
+        "dieese_preco_unit_centavos": 4910
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 4356,
+        "dieese_preco_unit_centavos": 5588
+      }
+    ]
+  },
+  {
+    "uf": "ES",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 26354,
+    "ifood_mais_barato": 25190,
+    "razao": 0.9558,
+    "detalhe": [
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 500,
+        "dieese_preco_unit_centavos": 672
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 418,
+        "dieese_preco_unit_centavos": 724
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 650,
+        "dieese_preco_unit_centavos": 381
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 799,
+        "dieese_preco_unit_centavos": 422
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 780,
+        "dieese_preco_unit_centavos": 791
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 5700,
+        "dieese_preco_unit_centavos": 4561
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 324,
+        "dieese_preco_unit_centavos": 281
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 889,
+        "dieese_preco_unit_centavos": 864
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5600,
+        "dieese_preco_unit_centavos": 6404
+      }
+    ]
+  },
+  {
+    "uf": "GO",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 10,
+    "dieese_mesmos_itens": 58301,
+    "ifood_mais_barato": 49378,
+    "razao": 0.847,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.0,
+        "preco_unit_centavos": 2700,
+        "dieese_preco_unit_centavos": 4597
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 549,
+        "dieese_preco_unit_centavos": 692
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 1000,
+        "dieese_preco_unit_centavos": 1098
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 436,
+        "dieese_preco_unit_centavos": 460
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 599,
+        "dieese_preco_unit_centavos": 495
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 840,
+        "dieese_preco_unit_centavos": 543
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1060,
+        "dieese_preco_unit_centavos": 660
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 7166,
+        "dieese_preco_unit_centavos": 6856
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 280,
+        "dieese_preco_unit_centavos": 323
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 3512,
+        "dieese_preco_unit_centavos": 5578
+      }
+    ]
+  },
+  {
+    "uf": "MA",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 45886,
+    "ifood_mais_barato": 56566,
+    "razao": 1.2327,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 2699,
+        "dieese_preco_unit_centavos": 4061
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 606,
+        "dieese_preco_unit_centavos": 626
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 550,
+        "dieese_preco_unit_centavos": 462
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 755,
+        "dieese_preco_unit_centavos": 1008
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 4550,
+        "dieese_preco_unit_centavos": 1927
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 6760,
+        "dieese_preco_unit_centavos": 6128
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 650,
+        "dieese_preco_unit_centavos": 409
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 7015,
+        "dieese_preco_unit_centavos": 6055
+      }
+    ]
+  },
+  {
+    "uf": "MG",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 11,
+    "dieese_mesmos_itens": 57662,
+    "ifood_mais_barato": 53300,
+    "razao": 0.9244,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.0,
+        "preco_unit_centavos": 3596,
+        "dieese_preco_unit_centavos": 4832
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 399,
+        "dieese_preco_unit_centavos": 660
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 999,
+        "dieese_preco_unit_centavos": 929
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 600,
+        "dieese_preco_unit_centavos": 456
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 949,
+        "dieese_preco_unit_centavos": 443
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 791,
+        "dieese_preco_unit_centavos": 501
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 783,
+        "dieese_preco_unit_centavos": 727
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 5038,
+        "dieese_preco_unit_centavos": 4840
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 360,
+        "dieese_preco_unit_centavos": 287
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 988,
+        "dieese_preco_unit_centavos": 822
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5638,
+        "dieese_preco_unit_centavos": 4605
+      }
+    ]
+  },
+  {
+    "uf": "MS",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 12,
+    "dieese_mesmos_itens": 71638,
+    "ifood_mais_barato": 73555,
+    "razao": 1.0268,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.6,
+        "preco_unit_centavos": 3802,
+        "dieese_preco_unit_centavos": 4899
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 499,
+        "dieese_preco_unit_centavos": 608
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 1000,
+        "dieese_preco_unit_centavos": 895
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 526,
+        "dieese_preco_unit_centavos": 419
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 800,
+        "dieese_preco_unit_centavos": 435
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 1248,
+        "dieese_preco_unit_centavos": 481
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 979,
+        "dieese_preco_unit_centavos": 603
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 1740,
+        "dieese_preco_unit_centavos": 1817
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 6800,
+        "dieese_preco_unit_centavos": 4955
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 619,
+        "dieese_preco_unit_centavos": 285
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 799,
+        "dieese_preco_unit_centavos": 786
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5396,
+        "dieese_preco_unit_centavos": 6557
+      }
+    ]
+  },
+  {
+    "uf": "MT",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 69815,
+    "ifood_mais_barato": 57821,
+    "razao": 0.8282,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.6,
+        "preco_unit_centavos": 2000,
+        "dieese_preco_unit_centavos": 4596
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 330,
+        "dieese_preco_unit_centavos": 704
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 1069,
+        "dieese_preco_unit_centavos": 845
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 365,
+        "dieese_preco_unit_centavos": 411
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1200,
+        "dieese_preco_unit_centavos": 818
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 2410,
+        "dieese_preco_unit_centavos": 2160
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 7258,
+        "dieese_preco_unit_centavos": 5750
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 951,
+        "dieese_preco_unit_centavos": 838
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 7695,
+        "dieese_preco_unit_centavos": 5986
+      }
+    ]
+  },
+  {
+    "uf": "PA",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 51082,
+    "ifood_mais_barato": 48822,
+    "razao": 0.9558,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 3293,
+        "dieese_preco_unit_centavos": 4644
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 688,
+        "dieese_preco_unit_centavos": 821
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 935,
+        "dieese_preco_unit_centavos": 866
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 525,
+        "dieese_preco_unit_centavos": 495
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 648,
+        "dieese_preco_unit_centavos": 821
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 1210,
+        "dieese_preco_unit_centavos": 807
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 6596,
+        "dieese_preco_unit_centavos": 6170
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1244,
+        "dieese_preco_unit_centavos": 939
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5620,
+        "dieese_preco_unit_centavos": 6314
+      }
+    ]
+  },
+  {
+    "uf": "PB",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 55009,
+    "ifood_mais_barato": 51609,
+    "razao": 0.9382,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 4154,
+        "dieese_preco_unit_centavos": 4804
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 549,
+        "dieese_preco_unit_centavos": 771
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 799,
+        "dieese_preco_unit_centavos": 1034
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 322,
+        "dieese_preco_unit_centavos": 457
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 440,
+        "dieese_preco_unit_centavos": 707
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 1016,
+        "dieese_preco_unit_centavos": 482
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 1460,
+        "dieese_preco_unit_centavos": 1554
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 3460,
+        "dieese_preco_unit_centavos": 6984
+      }
+    ]
+  },
+  {
+    "uf": "PE",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 10,
+    "dieese_mesmos_itens": 55522,
+    "ifood_mais_barato": 51003,
+    "razao": 0.9186,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 4146,
+        "dieese_preco_unit_centavos": 4600
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 624,
+        "dieese_preco_unit_centavos": 688
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 744,
+        "dieese_preco_unit_centavos": 1013
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 459,
+        "dieese_preco_unit_centavos": 568
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 458,
+        "dieese_preco_unit_centavos": 625
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 682,
+        "dieese_preco_unit_centavos": 501
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 1180,
+        "dieese_preco_unit_centavos": 1440
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 5516,
+        "dieese_preco_unit_centavos": 5976
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 400,
+        "dieese_preco_unit_centavos": 376
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5478,
+        "dieese_preco_unit_centavos": 6190
+      }
+    ]
+  },
+  {
+    "uf": "PI",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 44730,
+    "ifood_mais_barato": 49786,
+    "razao": 1.113,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 4990,
+        "dieese_preco_unit_centavos": 4647
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 579,
+        "dieese_preco_unit_centavos": 731
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 780,
+        "dieese_preco_unit_centavos": 477
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 944,
+        "dieese_preco_unit_centavos": 800
+      },
+      {
+        "item": "Tomate",
+        "qtd": 12.0,
+        "preco_unit_centavos": 900,
+        "dieese_preco_unit_centavos": 617
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 5188,
+        "dieese_preco_unit_centavos": 6266
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 590,
+        "dieese_preco_unit_centavos": 370
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5454,
+        "dieese_preco_unit_centavos": 6561
+      }
+    ]
+  },
+  {
+    "uf": "PR",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 10,
+    "dieese_mesmos_itens": 70103,
+    "ifood_mais_barato": 74598,
+    "razao": 1.0641,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.6,
+        "preco_unit_centavos": 4102,
+        "dieese_preco_unit_centavos": 5365
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 505,
+        "dieese_preco_unit_centavos": 664
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 835,
+        "dieese_preco_unit_centavos": 634
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 493,
+        "dieese_preco_unit_centavos": 399
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1057,
+        "dieese_preco_unit_centavos": 741
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 3333,
+        "dieese_preco_unit_centavos": 1665
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 4458,
+        "dieese_preco_unit_centavos": 4826
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 552,
+        "dieese_preco_unit_centavos": 388
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 830,
+        "dieese_preco_unit_centavos": 811
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5220,
+        "dieese_preco_unit_centavos": 5425
+      }
+    ]
+  },
+  {
+    "uf": "RJ",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 12,
+    "dieese_mesmos_itens": 76509,
+    "ifood_mais_barato": 64435,
+    "razao": 0.8422,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.0,
+        "preco_unit_centavos": 3600,
+        "dieese_preco_unit_centavos": 5307
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 513,
+        "dieese_preco_unit_centavos": 753
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 660,
+        "dieese_preco_unit_centavos": 667
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 430,
+        "dieese_preco_unit_centavos": 558
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 707,
+        "dieese_preco_unit_centavos": 495
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 694,
+        "dieese_preco_unit_centavos": 554
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 900,
+        "dieese_preco_unit_centavos": 794
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 2000,
+        "dieese_preco_unit_centavos": 2106
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 5560,
+        "dieese_preco_unit_centavos": 5531
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 399,
+        "dieese_preco_unit_centavos": 353
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1332,
+        "dieese_preco_unit_centavos": 848
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 4895,
+        "dieese_preco_unit_centavos": 7137
+      }
+    ]
+  },
+  {
+    "uf": "RS",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 12,
+    "dieese_mesmos_itens": 75893,
+    "ifood_mais_barato": 73308,
+    "razao": 0.9659,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.6,
+        "preco_unit_centavos": 3856,
+        "dieese_preco_unit_centavos": 5457
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 399,
+        "dieese_preco_unit_centavos": 569
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 999,
+        "dieese_preco_unit_centavos": 689
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 336,
+        "dieese_preco_unit_centavos": 447
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 298,
+        "dieese_preco_unit_centavos": 402
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 480,
+        "dieese_preco_unit_centavos": 543
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1390,
+        "dieese_preco_unit_centavos": 783
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 2143,
+        "dieese_preco_unit_centavos": 1613
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 4198,
+        "dieese_preco_unit_centavos": 5566
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 890,
+        "dieese_preco_unit_centavos": 396
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1143,
+        "dieese_preco_unit_centavos": 872
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5936,
+        "dieese_preco_unit_centavos": 6816
+      }
+    ]
+  },
+  {
+    "uf": "SC",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 9,
+    "dieese_mesmos_itens": 29993,
+    "ifood_mais_barato": 32462,
+    "razao": 1.0823,
+    "detalhe": [
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 526,
+        "dieese_preco_unit_centavos": 634
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 600,
+        "dieese_preco_unit_centavos": 743
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 400,
+        "dieese_preco_unit_centavos": 511
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 604,
+        "dieese_preco_unit_centavos": 545
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1242,
+        "dieese_preco_unit_centavos": 743
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 4526,
+        "dieese_preco_unit_centavos": 5619
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 439,
+        "dieese_preco_unit_centavos": 418
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 1778,
+        "dieese_preco_unit_centavos": 859
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 5576,
+        "dieese_preco_unit_centavos": 6468
+      }
+    ]
+  },
+  {
+    "uf": "SE",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 8,
+    "dieese_mesmos_itens": 34893,
+    "ifood_mais_barato": 25808,
+    "razao": 0.7396,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 4.5,
+        "preco_unit_centavos": 2800,
+        "dieese_preco_unit_centavos": 4400
+      },
+      {
+        "item": "Leite",
+        "qtd": 6.0,
+        "preco_unit_centavos": 528,
+        "dieese_preco_unit_centavos": 678
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.6,
+        "preco_unit_centavos": 366,
+        "dieese_preco_unit_centavos": 516
+      },
+      {
+        "item": "Farinha",
+        "qtd": 3.0,
+        "preco_unit_centavos": 420,
+        "dieese_preco_unit_centavos": 676
+      },
+      {
+        "item": "Café",
+        "qtd": 0.3,
+        "preco_unit_centavos": 7196,
+        "dieese_preco_unit_centavos": 6234
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 389,
+        "dieese_preco_unit_centavos": 338
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 888,
+        "dieese_preco_unit_centavos": 886
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 4450,
+        "dieese_preco_unit_centavos": 4611
+      }
+    ]
+  },
+  {
+    "uf": "SP",
+    "periodo_dieese": "2026-08-01",
+    "itens_casados": 12,
+    "dieese_mesmos_itens": 80811,
+    "ifood_mais_barato": 65801,
+    "razao": 0.8143,
+    "detalhe": [
+      {
+        "item": "Carne",
+        "qtd": 6.0,
+        "preco_unit_centavos": 3500,
+        "dieese_preco_unit_centavos": 5543
+      },
+      {
+        "item": "Leite",
+        "qtd": 7.5,
+        "preco_unit_centavos": 499,
+        "dieese_preco_unit_centavos": 723
+      },
+      {
+        "item": "Feijão",
+        "qtd": 4.5,
+        "preco_unit_centavos": 879,
+        "dieese_preco_unit_centavos": 974
+      },
+      {
+        "item": "Arroz",
+        "qtd": 3.0,
+        "preco_unit_centavos": 389,
+        "dieese_preco_unit_centavos": 456
+      },
+      {
+        "item": "Farinha",
+        "qtd": 1.5,
+        "preco_unit_centavos": 292,
+        "dieese_preco_unit_centavos": 523
+      },
+      {
+        "item": "Batata",
+        "qtd": 6.0,
+        "preco_unit_centavos": 698,
+        "dieese_preco_unit_centavos": 775
+      },
+      {
+        "item": "Tomate",
+        "qtd": 9.0,
+        "preco_unit_centavos": 1286,
+        "dieese_preco_unit_centavos": 933
+      },
+      {
+        "item": "Pão",
+        "qtd": 6.0,
+        "preco_unit_centavos": 1780,
+        "dieese_preco_unit_centavos": 1995
+      },
+      {
+        "item": "Café",
+        "qtd": 0.6,
+        "preco_unit_centavos": 4796,
+        "dieese_preco_unit_centavos": 5844
+      },
+      {
+        "item": "Açúcar",
+        "qtd": 3.0,
+        "preco_unit_centavos": 303,
+        "dieese_preco_unit_centavos": 361
+      },
+      {
+        "item": "Óleo",
+        "qtd": 0.9,
+        "preco_unit_centavos": 854,
+        "dieese_preco_unit_centavos": 866
+      },
+      {
+        "item": "Manteiga",
+        "qtd": 0.75,
+        "preco_unit_centavos": 6000,
+        "dieese_preco_unit_centavos": 6945
+      }
+    ]
+  }
+]

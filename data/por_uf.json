@@ -1,0 +1,218 @@
+[
+  {
+    "uf": "AC",
+    "lojas": 6,
+    "produtos": 1430,
+    "preco_medio": 2229,
+    "populacao": 830018,
+    "pib_per_capita_medio_ponderado": 3167560
+  },
+  {
+    "uf": "AL",
+    "lojas": 24,
+    "produtos": 2678,
+    "preco_medio": 3153,
+    "populacao": 3127683,
+    "pib_per_capita_medio_ponderado": 2867584
+  },
+  {
+    "uf": "AM",
+    "lojas": 42,
+    "produtos": 5446,
+    "preco_medio": 3198,
+    "populacao": 3941613,
+    "pib_per_capita_medio_ponderado": 4104791
+  },
+  {
+    "uf": "AP",
+    "lojas": 7,
+    "produtos": 846,
+    "preco_medio": 3326,
+    "populacao": 733759,
+    "pib_per_capita_medio_ponderado": 3818709
+  },
+  {
+    "uf": "BA",
+    "lojas": 49,
+    "produtos": 4920,
+    "preco_medio": 2681,
+    "populacao": 14141626,
+    "pib_per_capita_medio_ponderado": 3047654
+  },
+  {
+    "uf": "CE",
+    "lojas": 41,
+    "produtos": 4911,
+    "preco_medio": 2756,
+    "populacao": 8794957,
+    "pib_per_capita_medio_ponderado": 2640596
+  },
+  {
+    "uf": "DF",
+    "lojas": 22,
+    "produtos": 4036,
+    "preco_medio": 3353,
+    "populacao": 2817381,
+    "pib_per_capita_medio_ponderado": 12979044
+  },
+  {
+    "uf": "ES",
+    "lojas": 35,
+    "produtos": 4627,
+    "preco_medio": 2992,
+    "populacao": 3833712,
+    "pib_per_capita_medio_ponderado": 5473278
+  },
+  {
+    "uf": "GO",
+    "lojas": 64,
+    "produtos": 7283,
+    "preco_medio": 2639,
+    "populacao": 7056495,
+    "pib_per_capita_medio_ponderado": 4772156
+  },
+  {
+    "uf": "MA",
+    "lojas": 23,
+    "produtos": 2059,
+    "preco_medio": 7322,
+    "populacao": 6776699,
+    "pib_per_capita_medio_ponderado": 2202063
+  },
+  {
+    "uf": "MG",
+    "lojas": 71,
+    "produtos": 7885,
+    "preco_medio": 2575,
+    "populacao": 20539989,
+    "pib_per_capita_medio_ponderado": 4732123
+  },
+  {
+    "uf": "MS",
+    "lojas": 56,
+    "produtos": 15261,
+    "preco_medio": 4761,
+    "populacao": 2757013,
+    "pib_per_capita_medio_ponderado": 6688475
+  },
+  {
+    "uf": "MT",
+    "lojas": 26,
+    "produtos": 3249,
+    "preco_medio": 2627,
+    "populacao": 3658649,
+    "pib_per_capita_medio_ponderado": 7462005
+  },
+  {
+    "uf": "PA",
+    "lojas": 36,
+    "produtos": 4694,
+    "preco_medio": 2863,
+    "populacao": 8120131,
+    "pib_per_capita_medio_ponderado": 3134759
+  },
+  {
+    "uf": "PB",
+    "lojas": 33,
+    "produtos": 4893,
+    "preco_medio": 2703,
+    "populacao": 3974687,
+    "pib_per_capita_medio_ponderado": 2439517
+  },
+  {
+    "uf": "PE",
+    "lojas": 51,
+    "produtos": 7330,
+    "preco_medio": 2569,
+    "populacao": 9058931,
+    "pib_per_capita_medio_ponderado": 2985727
+  },
+  {
+    "uf": "PI",
+    "lojas": 17,
+    "produtos": 2994,
+    "preco_medio": 2930,
+    "populacao": 3271199,
+    "pib_per_capita_medio_ponderado": 2473614
+  },
+  {
+    "uf": "PR",
+    "lojas": 95,
+    "produtos": 11431,
+    "preco_medio": 2669,
+    "populacao": 11444380,
+    "pib_per_capita_medio_ponderado": 5862433
+  },
+  {
+    "uf": "RJ",
+    "lojas": 84,
+    "produtos": 11157,
+    "preco_medio": 2627,
+    "populacao": 16055174,
+    "pib_per_capita_medio_ponderado": 7305255
+  },
+  {
+    "uf": "RN",
+    "lojas": 22,
+    "produtos": 2944,
+    "preco_medio": 3274,
+    "populacao": 3302729,
+    "pib_per_capita_medio_ponderado": 3080491
+  },
+  {
+    "uf": "RO",
+    "lojas": 10,
+    "produtos": 1255,
+    "preco_medio": 2650,
+    "populacao": 1581196,
+    "pib_per_capita_medio_ponderado": 4835338
+  },
+  {
+    "uf": "RR",
+    "lojas": 9,
+    "produtos": 1310,
+    "preco_medio": 2750,
+    "populacao": 636707,
+    "pib_per_capita_medio_ponderado": 3946055
+  },
+  {
+    "uf": "RS",
+    "lojas": 55,
+    "produtos": 8103,
+    "preco_medio": 2715,
+    "populacao": 10882965,
+    "pib_per_capita_medio_ponderado": 5973620
+  },
+  {
+    "uf": "SC",
+    "lojas": 41,
+    "produtos": 7360,
+    "preco_medio": 3012,
+    "populacao": 7610361,
+    "pib_per_capita_medio_ponderado": 6745974
+  },
+  {
+    "uf": "SE",
+    "lojas": 21,
+    "produtos": 3867,
+    "preco_medio": 3699,
+    "populacao": 2210004,
+    "pib_per_capita_medio_ponderado": 2751880
+  },
+  {
+    "uf": "SP",
+    "lojas": 235,
+    "produtos": 28449,
+    "preco_medio": 3922,
+    "populacao": 44411238,
+    "pib_per_capita_medio_ponderado": 7756627
+  },
+  {
+    "uf": "TO",
+    "lojas": 4,
+    "produtos": 802,
+    "preco_medio": 2828,
+    "populacao": 1511460,
+    "pib_per_capita_medio_ponderado": 4255336
+  }
+]

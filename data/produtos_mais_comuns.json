@@ -1,0 +1,352 @@
+[
+  {
+    "nome": "Cup Noodles Yakissoba 70g",
+    "lojas": 189,
+    "preco_medio": 707,
+    "preco_min": 469,
+    "preco_max": 1188
+  },
+  {
+    "nome": "Miojo Instantâneo Yakissoba Ufo Sabor Carne Nissin 97g",
+    "lojas": 177,
+    "preco_medio": 1027,
+    "preco_min": 744,
+    "preco_max": 1698
+  },
+  {
+    "nome": "Macarrão Instântaneo de Yakissoba Nissin 500g",
+    "lojas": 172,
+    "preco_medio": 1122,
+    "preco_min": 599,
+    "preco_max": 1875
+  },
+  {
+    "nome": "Combo 18x Cerveja Heineken 330ml",
+    "lojas": 161,
+    "preco_medio": 14480,
+    "preco_min": 10602,
+    "preco_max": 20772
+  },
+  {
+    "nome": "Combo 24x Cerveja Heineken 0,0 330ml",
+    "lojas": 153,
+    "preco_medio": 19598,
+    "preco_min": 15576,
+    "preco_max": 27696
+  },
+  {
+    "nome": "Leite Pó Ninho Integral 380g",
+    "lojas": 149,
+    "preco_medio": 2842,
+    "preco_min": 1651,
+    "preco_max": 4500
+  },
+  {
+    "nome": "Molho Shoyu Sakura Tradicional Garrafa 500ml",
+    "lojas": 140,
+    "preco_medio": 2313,
+    "preco_min": 1198,
+    "preco_max": 4190
+  },
+  {
+    "nome": "Combo 12x Heineken 350ml",
+    "lojas": 138,
+    "preco_medio": 7828,
+    "preco_min": 5892,
+    "preco_max": 11064
+  },
+  {
+    "nome": "Panettone com Frutas Cristalizadas Bauducco 400g",
+    "lojas": 137,
+    "preco_medio": 2820,
+    "preco_min": 1899,
+    "preco_max": 4516
+  },
+  {
+    "nome": "Chocottone Bauducco Embalagem 400g",
+    "lojas": 133,
+    "preco_medio": 2843,
+    "preco_min": 1899,
+    "preco_max": 4516
+  },
+  {
+    "nome": "Bebida Vegetal A Tal da Castanha Original 1l",
+    "lojas": 117,
+    "preco_medio": 2605,
+    "preco_min": 1649,
+    "preco_max": 3695
+  },
+  {
+    "nome": "Leite Integral Instantâneo Ninho Nestlé 380g",
+    "lojas": 115,
+    "preco_medio": 2804,
+    "preco_min": 1651,
+    "preco_max": 4789
+  },
+  {
+    "nome": "Combo 36x Cerveja Heineken 0,0 350ml",
+    "lojas": 112,
+    "preco_medio": 24283,
+    "preco_min": 17316,
+    "preco_max": 33228
+  },
+  {
+    "nome": "Leite Integral Piracanjuba 1l",
+    "lojas": 109,
+    "preco_medio": 842,
+    "preco_min": 529,
+    "preco_max": 1600
+  },
+  {
+    "nome": "Molho de Soja Aji-No Shoyu 150ml",
+    "lojas": 105,
+    "preco_medio": 579,
+    "preco_min": 299,
+    "preco_max": 1007
+  },
+  {
+    "nome": "Bebida Vegetal Amêndoa A Tal da Castanha 1l",
+    "lojas": 99,
+    "preco_medio": 2536,
+    "preco_min": 1540,
+    "preco_max": 3612
+  },
+  {
+    "nome": "Leite Integral Ninho 1l",
+    "lojas": 97,
+    "preco_medio": 950,
+    "preco_min": 615,
+    "preco_max": 1800
+  },
+  {
+    "nome": "Combo 3 Bom Ar Aerosol Lavanda 360ml",
+    "lojas": 94,
+    "preco_medio": 6904,
+    "preco_min": 4158,
+    "preco_max": 13131
+  },
+  {
+    "nome": "Refrigerante Coca-Cola Original 2l",
+    "lojas": 94,
+    "preco_medio": 1492,
+    "preco_min": 949,
+    "preco_max": 2790
+  },
+  {
+    "nome": "Combo 3x Amstel 350ml",
+    "lojas": 93,
+    "preco_medio": 1590,
+    "preco_min": 1017,
+    "preco_max": 2754
+  },
+  {
+    "nome": "Molho Shoyu Soja Suave Sakura 150ml",
+    "lojas": 92,
+    "preco_medio": 767,
+    "preco_min": 368,
+    "preco_max": 1390
+  },
+  {
+    "nome": "Panettone Visconti Frutas Embalagem 400g",
+    "lojas": 90,
+    "preco_medio": 2064,
+    "preco_min": 1599,
+    "preco_max": 2879
+  },
+  {
+    "nome": "Leite em Pó Molico Lata 280g 2x Mais Cálcio",
+    "lojas": 89,
+    "preco_medio": 2838,
+    "preco_min": 1800,
+    "preco_max": 4719
+  },
+  {
+    "nome": "Panetone Gotas Chocolate Visconti 400g",
+    "lojas": 87,
+    "preco_medio": 2064,
+    "preco_min": 1499,
+    "preco_max": 2905
+  },
+  {
+    "nome": "Panetone Bauducco 80g Frutas",
+    "lojas": 86,
+    "preco_medio": 893,
+    "preco_min": 699,
+    "preco_max": 1242
+  },
+  {
+    "nome": "Combo 3 Coca-Cola Sa e 3 Coca 350ml",
+    "lojas": 85,
+    "preco_medio": 3082,
+    "preco_min": 2394,
+    "preco_max": 4500
+  },
+  {
+    "nome": "Combo 6x Heineken 330ml",
+    "lojas": 83,
+    "preco_medio": 4888,
+    "preco_min": 3864,
+    "preco_max": 6594
+  },
+  {
+    "nome": "Panetone com Gotas de Chocolate Tommy 400g",
+    "lojas": 83,
+    "preco_medio": 1796,
+    "preco_min": 1511,
+    "preco_max": 2308
+  },
+  {
+    "nome": "Leite Uht Integral com Tampa Italac 1l",
+    "lojas": 80,
+    "preco_medio": 738,
+    "preco_min": 447,
+    "preco_max": 1049
+  },
+  {
+    "nome": "Bebida Láctea Uht Baunilha Yopro 250ml",
+    "lojas": 79,
+    "preco_medio": 1039,
+    "preco_min": 607,
+    "preco_max": 1567
+  },
+  {
+    "nome": "Yakisoba Sadia 600g",
+    "lojas": 78,
+    "preco_medio": 3076,
+    "preco_min": 2050,
+    "preco_max": 4014
+  },
+  {
+    "nome": "Coca-Cola Zero Garrafa 2l",
+    "lojas": 76,
+    "preco_medio": 1459,
+    "preco_min": 1049,
+    "preco_max": 2198
+  },
+  {
+    "nome": "Combo 3x Bom Ar Lavanda Spray",
+    "lojas": 76,
+    "preco_medio": 6556,
+    "preco_min": 4158,
+    "preco_max": 10494
+  },
+  {
+    "nome": "Coca-Cola Zero Lata 350ml",
+    "lojas": 74,
+    "preco_medio": 548,
+    "preco_min": 370,
+    "preco_max": 1050
+  },
+  {
+    "nome": "Molho Shoyu Suave Sakura 150ml",
+    "lojas": 74,
+    "preco_medio": 1643,
+    "preco_min": 1099,
+    "preco_max": 2548
+  },
+  {
+    "nome": "Molho Shoyu Tradicional Sakura 1l",
+    "lojas": 74,
+    "preco_medio": 3034,
+    "preco_min": 1798,
+    "preco_max": 5547
+  },
+  {
+    "nome": "Molho Yakissoba Sakura Garrafa 500ml",
+    "lojas": 74,
+    "preco_medio": 2961,
+    "preco_min": 1748,
+    "preco_max": 4930
+  },
+  {
+    "nome": "Panetone com Frutas Tommy 400g",
+    "lojas": 74,
+    "preco_medio": 1770,
+    "preco_min": 1231,
+    "preco_max": 2419
+  },
+  {
+    "nome": "Leite Molico Zero Lactose 260g",
+    "lojas": 73,
+    "preco_medio": 3377,
+    "preco_min": 2399,
+    "preco_max": 4180
+  },
+  {
+    "nome": "Óleo de Gergelim Kenko 100ml",
+    "lojas": 73,
+    "preco_medio": 2370,
+    "preco_min": 1549,
+    "preco_max": 3321
+  },
+  {
+    "nome": "Papel Sulfite A4 Report 500 Folhas",
+    "lojas": 73,
+    "preco_medio": 3783,
+    "preco_min": 2456,
+    "preco_max": 7464
+  },
+  {
+    "nome": "Combo 12 Coca-Cola Sem Açúcar 200ml",
+    "lojas": 72,
+    "preco_medio": 3006,
+    "preco_min": 2388,
+    "preco_max": 4752
+  },
+  {
+    "nome": "Combo 4x Sbp Aerossol Multi450ml",
+    "lojas": 72,
+    "preco_medio": 9887,
+    "preco_min": 6596,
+    "preco_max": 13436
+  },
+  {
+    "nome": "Barra de Proteína Sabor Cappuccino Classic 3 Corações 50g",
+    "lojas": 70,
+    "preco_medio": 1311,
+    "preco_min": 723,
+    "preco_max": 1926
+  },
+  {
+    "nome": "Composto Lacteo Ninho Forti+ Zero Lactose 380g",
+    "lojas": 69,
+    "preco_medio": 3320,
+    "preco_min": 2474,
+    "preco_max": 5151
+  },
+  {
+    "nome": "Pão de Forma Tradicional Bauducco 390g",
+    "lojas": 68,
+    "preco_medio": 1111,
+    "preco_min": 702,
+    "preco_max": 1790
+  },
+  {
+    "nome": "Coca-Cola Lata 350ml",
+    "lojas": 66,
+    "preco_medio": 570,
+    "preco_min": 398,
+    "preco_max": 1050
+  },
+  {
+    "nome": "Barra de Proteína Sabor Caramelo Salgado Cappuccino 3 Corações 50g",
+    "lojas": 65,
+    "preco_medio": 1332,
+    "preco_min": 839,
+    "preco_max": 1926
+  },
+  {
+    "nome": "Coca-Cola 600ml",
+    "lojas": 65,
+    "preco_medio": 818,
+    "preco_min": 449,
+    "preco_max": 1290
+  },
+  {
+    "nome": "Sachê Whiskas Gatos Adultos Atum Ao Molho 85g",
+    "lojas": 65,
+    "preco_medio": 439,
+    "preco_min": 288,
+    "preco_max": 848
+  }
+]

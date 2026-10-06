@@ -1,0 +1,263 @@
+[
+  {
+    "rede": "Americanas",
+    "lojas": 27,
+    "ufs": 27,
+    "lojas_com_indice": 17,
+    "indice": 91.71,
+    "basicos": {
+      "leite": {
+        "indice": null,
+        "n": 0
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 1
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Assaí",
+    "lojas": 21,
+    "ufs": 20,
+    "lojas_com_indice": 20,
+    "indice": 92.8,
+    "basicos": {
+      "leite": {
+        "indice": 88.16,
+        "n": 10
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 2
+      },
+      "feijao": {
+        "indice": null,
+        "n": 1
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Atacadão",
+    "lojas": 29,
+    "ufs": 26,
+    "lojas_com_indice": 23,
+    "indice": 93.73,
+    "basicos": {
+      "leite": {
+        "indice": 85.57,
+        "n": 12
+      },
+      "arroz": {
+        "indice": null,
+        "n": 1
+      },
+      "cafe": {
+        "indice": 82.13,
+        "n": 5
+      },
+      "feijao": {
+        "indice": null,
+        "n": 2
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Extra",
+    "lojas": 7,
+    "ufs": 6,
+    "lojas_com_indice": 7,
+    "indice": 98.1,
+    "basicos": {
+      "leite": {
+        "indice": 76.9,
+        "n": 3
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 1
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Pão de Açúcar",
+    "lojas": 11,
+    "ufs": 11,
+    "lojas_com_indice": 11,
+    "indice": 98.49,
+    "basicos": {
+      "leite": {
+        "indice": 87.59,
+        "n": 5
+      },
+      "arroz": {
+        "indice": null,
+        "n": 1
+      },
+      "cafe": {
+        "indice": null,
+        "n": 2
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Carrefour Hiper",
+    "lojas": 14,
+    "ufs": 13,
+    "lojas_com_indice": 14,
+    "indice": 99.0,
+    "basicos": {
+      "leite": {
+        "indice": 92.73,
+        "n": 7
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 0
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Center Shop",
+    "lojas": 6,
+    "ufs": 1,
+    "lojas_com_indice": 6,
+    "indice": 100.0,
+    "basicos": {
+      "leite": {
+        "indice": 96.63,
+        "n": 5
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 0
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Nova Era",
+    "lojas": 6,
+    "ufs": 3,
+    "lojas_com_indice": 3,
+    "indice": 100.0,
+    "basicos": {
+      "leite": {
+        "indice": null,
+        "n": 1
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 0
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  },
+  {
+    "rede": "Spid",
+    "lojas": 5,
+    "ufs": 1,
+    "lojas_com_indice": 5,
+    "indice": 100.0,
+    "basicos": {
+      "leite": {
+        "indice": 103.2,
+        "n": 3
+      },
+      "arroz": {
+        "indice": null,
+        "n": 0
+      },
+      "cafe": {
+        "indice": null,
+        "n": 0
+      },
+      "feijao": {
+        "indice": null,
+        "n": 0
+      },
+      "oleo": {
+        "indice": null,
+        "n": 0
+      }
+    }
+  }
+]
