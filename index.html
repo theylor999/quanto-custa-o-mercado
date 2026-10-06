@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preços de supermercado no iFood · projeto pessoal de Theylor Machado</title>
+  <meta name="description" content="Projeto pessoal de ciência de dados de Theylor Machado: preços de supermercados do iFood coletados nas capitais brasileiras, com mapa por UF, cesta básica, produtos, variação de preço e séries do DIEESE e do IPCA.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafafa'/%3E%3Cpath d='M8 21l5-6 4 3 7-9' fill='none' stroke='%230a0a0c' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <script>
+    /* Tema antes da primeira pintura: escuro por padrão; a escolha salva vence. */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('ifood-precos:tema'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = 'dark';
+      var r = document.documentElement;
+      r.setAttribute('data-theme', t);
+      r.classList.add('js');
+    })();
+  </script>
+  <link rel="preload" href="fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="inicio">
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></g></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+  </svg>
+
+  <div class="ambient" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span></div>
+
+  <header class="topbar" id="topo">
+    <div class="topbar-row container">
+      <a class="brand" href="index.html" aria-label="Preços no iFood, página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 21l5-6 4 3 7-9" fill="none" stroke="hsl(var(--background))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="brand-text" aria-hidden="true">preços<span class="brand-dot">/</span>ifood</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Páginas do site">
+        <ul>
+          <li><a class="nav-link" href="index.html" aria-current="page">Início</a></li>
+          <li><a class="nav-link" href="estados.html">Estados</a></li>
+          <li><a class="nav-link" href="capitais.html">Capitais</a></li>
+          <li><a class="nav-link" href="produtos.html">Produtos</a></li>
+          <li><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+          <li><a class="nav-link" href="series.html">Séries</a></li>
+          <li><a class="nav-link" href="graficos.html">Gráficos</a></li>
+          <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+      <div class="bar-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="true" title="Alternar tema">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="menu-root" id="menu-root">
+          <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu de páginas" aria-expanded="false" aria-controls="menu-panel">
+            <svg class="icon-open" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <svg class="icon-close" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <nav class="menu-panel" id="menu-panel" aria-label="Páginas do site (menu)" hidden></nav>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero-bg" aria-hidden="true"><span class="hero-orb a"></span><span class="hero-orb b"></span></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill enter" style="--enter-delay:0ms"><i aria-hidden="true"></i> Projeto pessoal · ciência de dados</p>
+          <h1 id="hero-titulo" class="enter" style="--enter-delay:80ms"><em class="hero-name">Quanto custa o mercado nas capitais do Brasil?</em></h1>
+          <div class="hero-byline enter" style="--enter-delay:120ms">
+            <p>Projeto pessoal de Theylor Machado · Cientista de Dados</p>
+            <ul class="social" aria-label="Links de Theylor Machado">
+              <li><a href="https://theylor.vercel.app" target="_blank" rel="noopener" aria-label="Portfólio de Theylor Machado" title="Portfólio"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-globe"/></svg></a></li>
+              <li><a href="https://github.com/theylor999" target="_blank" rel="noopener" aria-label="GitHub de Theylor Machado" title="GitHub"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+              <li><a href="https://www.linkedin.com/in/theylor921" target="_blank" rel="noopener" aria-label="LinkedIn de Theylor Machado" title="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            </ul>
+          </div>
+          <p class="lede enter" style="--enter-delay:160ms" id="hero-pitch">
+            Este é um projeto meu: quanto custa o mercado em cada capital? Eu já tinha feito isso há anos e refiz do zero:
+            <strong data-kpi-text="total_produtos">…</strong> preços de <strong data-kpi-text="total_lojas">…</strong> mercados
+            nas <strong data-kpi-text="capitais">…</strong> capitais, coletados do site do iFood, guardados num Postgres e analisados nesta página.
+          </p>
+          <div class="hero-cta enter" style="--enter-delay:260ms">
+            <a class="btn btn-primary" href="#destaques">Comece pelos destaques <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="estados.html">Ver o mapa por UF</a>
+          </div>
+          <p class="hero-meta enter" style="--enter-delay:320ms" id="hero-meta" aria-live="polite"></p>
+        </div>
+        <div class="tilt-wrap enter-zoom">
+          <div class="tilt-card" id="tilt-card">
+            <span class="glow" aria-hidden="true"></span>
+            <div class="profile">
+              <span class="photo-ring"><img src="img/theylor.webp" width="88" height="88" alt="Foto de Theylor Machado" decoding="async"></span>
+              <div class="profile-txt">
+                <p class="profile-name">Theylor Machado</p>
+                <p class="profile-role">Cientista de Dados</p>
+              </div>
+            </div>
+            <p class="tilt-title"><span>O projeto em números</span></p>
+            <dl class="kpis" id="kpis" aria-label="Números do projeto">
+              <div class="kpi"><dt>Lojas de supermercado</dt><dd><span class="num" data-kpi="total_lojas" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt>Preços limpos</dt><dd><span class="num" data-kpi="total_produtos" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt>Capitais</dt><dd><span class="num" data-kpi="capitais" data-fmt="int">–</span></dd></div>
+              <div class="kpi"><dt>Corredores analisados</dt><dd><span class="num" data-kpi="corredores" data-fmt="int">–</span></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue-link" href="#destaques" aria-label="Rolar para os destaques">
+        <svg class="scroll-cue" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </section>
+
+    <section class="section" id="destaques" aria-labelledby="destaques-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Destaques</p>
+          <h2 id="destaques-titulo">Comece por aqui</h2>
+          <p class="lede">Cinco perguntas que eu quis responder. Os números saem dos dados e mudam se eu coletar de novo.</p>
+        </header>
+        <div class="hl-grid" id="hl-grid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="explorar" aria-labelledby="explorar-titulo">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Explore</p>
+          <h2 id="explorar-titulo">O que tem em cada página</h2>
+        </header>
+        <ul class="explore">
+          <li><a class="card explore-card spotlight reveal" href="estados.html"><h3>Estados</h3><p>Mapa de preços por UF e a cesta do iFood contra a do DIEESE, estado a estado.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="capitais.html"><h3>Capitais</h3><p>Uma capital por vez: população, lojas e preço de arroz, leite e café.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="produtos.html"><h3>Produtos</h3><p>Itens do dia a dia, corredores e quanto o mesmo produto varia de loja para loja.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="tabelas.html"><h3>Tabelas</h3><p>Todas as tabelas num lugar só, com busca e ordenação.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="series.html"><h3>Séries</h3><p>Cesta básica do DIEESE e inflação (IPCA) ao longo do tempo.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="graficos.html"><h3>Gráficos</h3><p>Os gráficos do notebook de análise, para ampliar.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+          <li><a class="card explore-card spotlight reveal" href="sobre.html"><h3>Sobre</h3><p>De onde vêm os dados, como limpo os números e quem sou.</p><span class="go">Abrir <span aria-hidden="true">→</span></span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p id="foot-meta" class="muted">Carregando metadados…</p>
+      <p class="muted">Projeto pessoal de <a href="https://theylor.vercel.app" target="_blank" rel="noopener">Theylor Machado</a>, sem vínculo com o iFood. <a href="#topo">Voltar ao topo ↑</a></p>
+    </div>
+  </footer>
+
+  <a class="to-top" id="to-top" href="#topo" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="js/util.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/sec-hero.js"></script>
+  <script src="js/sec-destaques.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
