@@ -249,7 +249,7 @@ th { background: var(--fundo-suave); font-weight: 800; }
 }
 
 @media (min-width: 40rem) {
-  .cartao { grid-template-columns: 1fr 1fr; align-items: end; }
+  .cartao { grid-template-columns: 1fr 1fr; align-items: start; }
   .cartao button.principal { grid-column: 1 / -1; }
 }
 
