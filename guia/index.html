@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guia de preços da cesta básica</title>
+  <meta name="description" content="Guia simples para comparar preços de alimentos básicos antes de comprar. Letra grande, alto contraste e versão para imprimir.">
+  <link rel="stylesheet" href="css/guia.css">
+</head>
+<body>
+  <a class="pular" href="#principal">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="conteudo">
+      <p class="selo">Para moradores do bairro Piratini · Sapucaia do Sul/RS</p>
+      <h1>Guia de preços da cesta básica</h1>
+      <p class="lead">Feito para as famílias do Piratini. Veja quanto custa a cesta básica, compare o preço de um produto antes de comprar e leve as dicas impressas.</p>
+      <div class="ferramentas" role="group" aria-label="Ajustes de leitura">
+        <button type="button" id="menos" aria-label="Diminuir letra">A−</button>
+        <button type="button" id="mais" aria-label="Aumentar letra">A+</button>
+        <button type="button" id="contraste" aria-pressed="false">Alto contraste</button>
+        <button type="button" id="imprimir">Imprimir esta página</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="principal" class="conteudo">
+    <nav class="indice" aria-label="Neste guia">
+      <ol>
+        <li><a href="#cesta">1. Quanto custa a cesta básica</a></li>
+        <li><a href="#comparar">2. Comparar o preço que eu vi</a></li>
+        <li><a href="#referencias">3. Preços de referência</a></li>
+        <li><a href="#dicas">4. Dicas para economizar</a></li>
+        <li><a href="#fontes">5. De onde vêm os números</a></li>
+      </ol>
+    </nav>
+
+    <section id="cesta" aria-labelledby="t-cesta">
+      <h2 id="t-cesta">1. Quanto custa a cesta básica</h2>
+      <p>A cesta básica do DIEESE reúne os alimentos essenciais para um adulto durante um mês. Estes são os valores de <strong>Porto Alegre</strong>, a capital mais próxima do Piratini e de Sapucaia do Sul.</p>
+      <div class="destaque" id="cesta-destaque" aria-live="polite">
+        <p class="rotulo">Último valor medido (<span id="cesta-mes">ago/2026</span>)</p>
+        <p class="numero" id="cesta-valor">R$ 839,34</p>
+        <p id="cesta-variacao">Carregando…</p>
+      </div>
+      <h3>Mês a mês</h3>
+      <ul class="barras" id="cesta-barras" aria-label="Valor da cesta básica em Porto Alegre, mês a mês"></ul>
+    </section>
+
+    <section id="comparar" aria-labelledby="t-comparar">
+      <h2 id="t-comparar">2. Comparar o preço que eu vi</h2>
+      <p>Escolha o produto e digite o preço que você viu na prateleira. O guia diz se o preço está baixo, comum ou alto.</p>
+      <form id="form-comparar" class="cartao" novalidate>
+        <div class="campo">
+          <label for="produto">Produto</label>
+          <select id="produto" name="produto"></select>
+        </div>
+        <div class="campo">
+          <label for="preco">Preço que eu vi (em reais)</label>
+          <input id="preco" name="preco" type="text" inputmode="decimal" autocomplete="off" aria-describedby="preco-ajuda">
+          <p id="preco-ajuda" class="ajuda">Exemplo: 7,50</p>
+        </div>
+        <button type="submit" class="principal">Verificar</button>
+      </form>
+      <div id="resultado" class="resultado" role="status" aria-live="polite" hidden></div>
+    </section>
+
+    <section id="referencias" aria-labelledby="t-ref">
+      <h2 id="t-ref">3. Preços de referência</h2>
+      <h3>Em Porto Alegre</h3>
+      <ul class="lista-preco" id="ref-pa"></ul>
+      <h3>Variação entre lojas no Brasil</h3>
+      <p>O mesmo produto pode ter preços bem diferentes de uma loja para outra. A tabela mostra a faixa em que ficam <strong>8 de cada 10 lojas</strong>.</p>
+      <div class="tabela-rolagem" tabindex="0" role="region" aria-label="Tabela de faixa de preços por produto">
+        <table id="tabela-itens">
+          <caption class="so-leitor">Faixa de preço por produto</caption>
+          <thead>
+            <tr><th scope="col">Produto</th><th scope="col">Preço do meio</th><th scope="col">Faixa comum</th><th scope="col">Lojas</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="dicas" aria-labelledby="t-dicas">
+      <h2 id="t-dicas">4. Dicas para economizar</h2>
+      <ol class="dicas">
+        <li><strong>Anote antes de sair.</strong> Faça a lista do que falta em casa e leve o guia impresso.</li>
+        <li><strong>Compare o mesmo tamanho.</strong> Um pacote maior nem sempre é mais barato. Veja o preço por quilo ou por litro na etiqueta.</li>
+        <li><strong>Olhe pelo menos duas lojas.</strong> O preço de um mesmo produto muda bastante entre lojas.</li>
+        <li><strong>Desconfie do preço muito acima da faixa.</strong> Use a seção 2 para conferir.</li>
+        <li><strong>Marcas diferentes.</strong> Teste a marca mais simples do mesmo produto.</li>
+      </ol>
+    </section>
+
+    <section id="fontes" aria-labelledby="t-fontes">
+      <h2 id="t-fontes">5. De onde vêm os números</h2>
+      <ul class="notas">
+        <li><strong>Cesta básica:</strong> pesquisa do DIEESE, valor mensal para Porto Alegre.</li>
+        <li><strong>Preços de produtos:</strong> preços públicos do site do iFood, coletados em <span id="coleta">06/10/2026</span>, sem login.</li>
+        <li><strong>Atenção:</strong> são preços de aplicativo. Podem ser diferentes do preço da prateleira da loja do seu bairro.</li>
+        <li><strong>Atenção:</strong> a coleta cobre só as capitais. Sapucaia do Sul não está na coleta, por isso Porto Alegre é só uma referência.</li>
+        <li><strong>Atenção:</strong> a faixa comum, de 10% a 90% das lojas, vem de lojas de todo o Brasil, não só do Rio Grande do Sul.</li>
+        <li>O projeto completo, com todas as capitais, está no repositório <a href="https://github.com/theylor999/quanto-custa-o-mercado">quanto-custa-o-mercado</a>. Este projeto não tem vínculo com o iFood.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="conteudo">
+      <p>Guia criado por Theylor Machado, aluno de Tecnologia em Ciência de Dados da Uninter, polo Sapucaia do Sul, como projeto de extensão para a comunidade do bairro Piratini. Uso gratuito.</p>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/guia.js"></script>
+</body>
+</html>
