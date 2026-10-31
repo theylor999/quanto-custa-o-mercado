@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/guia", "destination": "/guia/", "permanent": false }
+  ]
+}
